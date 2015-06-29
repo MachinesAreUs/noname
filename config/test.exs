@@ -15,4 +15,5 @@ config :iris, Iris.Repo,
   username: "postgres",
   password: "postgres",
   database: "iris_test",
-  size: 1 # Use a single connection for transactional tests
+  size: 1, # Use a single connection for transactional tests
+  pool: Ecto.Adapters.SQL.Sandbox
