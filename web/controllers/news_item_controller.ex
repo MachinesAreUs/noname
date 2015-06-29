@@ -15,7 +15,7 @@ defmodule Iris.NewsItemController do
     changeset = NewsItem.changeset(%NewsItem{}, news_item_params)
 
     if changeset.valid? do
-      news_item = Repo.insert(changeset)
+      news_item = Repo.insert!(changeset)
       render(conn, "show.json", news_item: news_item)
     else
       conn
@@ -34,7 +34,7 @@ defmodule Iris.NewsItemController do
     changeset = NewsItem.changeset(news_item, news_item_params)
 
     if changeset.valid? do
-      news_item = Repo.update(changeset)
+      news_item = Repo.update!(changeset)
       render(conn, "show.json", news_item: news_item)
     else
       conn
@@ -46,7 +46,7 @@ defmodule Iris.NewsItemController do
   def delete(conn, %{"id" => id}) do
     news_item = Repo.get(NewsItem, id)
 
-    news_item = Repo.delete(news_item)
+    news_item = Repo.delete!(news_item)
     render(conn, "show.json", news_item: news_item)
   end
 end
