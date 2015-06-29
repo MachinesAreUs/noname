@@ -17,6 +17,11 @@ defmodule Iris.Router do
 
     get "/", PageController, :index
 
+  end
+
+  scope "/api", Iris do
+    pipe_through :api
+
     resources "/newsitems", NewsItemController
   end
 
