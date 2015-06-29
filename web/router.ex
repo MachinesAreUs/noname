@@ -25,6 +25,10 @@ defmodule Iris.Router do
     resources "/newsitems", NewsItemController
   end
 
+  socket "/ws", Iris do
+    channel "notifications:lobby", NotificationChannel
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", Iris do
   #   pipe_through :api
