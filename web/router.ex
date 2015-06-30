@@ -13,10 +13,9 @@ defmodule Iris.Router do
   end
 
   scope "/", Iris do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :browser 
 
     get "/", PageController, :index
-
   end
 
   scope "/api", Iris do
@@ -26,11 +25,7 @@ defmodule Iris.Router do
   end
 
   socket "/channels/notifications", Iris do
-    channel "notifications:lobby", NotificationChannel
+    channel "notifications:*", NotificationChannel
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Iris do
-  #   pipe_through :api
-  # end
 end
