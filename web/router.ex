@@ -25,7 +25,7 @@ defmodule Iris.Router do
     resources "/newsitems", NewsItemController
   end
 
-  socket "/ws", Iris do
+  socket "/channels/notifications", Iris do
     channel "notifications:lobby", NotificationChannel
   end
 
