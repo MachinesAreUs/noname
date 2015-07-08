@@ -22,6 +22,7 @@ defmodule Iris.Router do
     pipe_through :api
 
     resources "/newsitems", NewsItemController
+    resources "/images", ImageController
   end
 
   socket "/channels/notifications", Iris do
