@@ -16,7 +16,7 @@ defmodule Iris.ImageControllerTest do
   end
 
   test "shows chosen resource", %{conn: conn} do
-    image = Repo.insert %Image{}
+    image = Repo.insert! %Image{}
     conn = get conn, image_path(conn, :show, image)
     assert json_response(conn, 200)["data"] == %{
       "id" => image.id
@@ -35,20 +35,20 @@ defmodule Iris.ImageControllerTest do
   end
 
   test "updates and renders chosen resource when data is valid", %{conn: conn} do
-    image = Repo.insert %Image{}
+    image = Repo.insert! %Image{}
     conn = put conn, image_path(conn, :update, image), image: @valid_attrs
     assert json_response(conn, 200)["data"]["id"]
     assert Repo.get_by(Image, @valid_attrs)
   end
 
   test "does not update chosen resource and renders errors when data is invalid", %{conn: conn} do
-    image = Repo.insert %Image{}
+    image = Repo.insert! %Image{}
     conn = put conn, image_path(conn, :update, image), image: @invalid_attrs
     assert json_response(conn, 422)["errors"] != %{}
   end
 
   test "deletes chosen resource", %{conn: conn} do
-    image = Repo.insert %Image{}
+    image = Repo.insert! %Image{}
     conn = delete conn, image_path(conn, :delete, image)
     assert json_response(conn, 200)["data"]["id"]
     refute Repo.get(Image, image.id)

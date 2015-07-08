@@ -15,7 +15,7 @@ defmodule Iris.ImageController do
     changeset = Image.changeset(%Image{}, image_params)
 
     if changeset.valid? do
-      image = Repo.insert(changeset)
+      image = Repo.insert!(changeset)
       render(conn, "show.json", image: image)
     else
       conn
@@ -34,7 +34,7 @@ defmodule Iris.ImageController do
     changeset = Image.changeset(image, image_params)
 
     if changeset.valid? do
-      image = Repo.update(changeset)
+      image = Repo.update!(changeset)
       render(conn, "show.json", image: image)
     else
       conn
@@ -46,7 +46,7 @@ defmodule Iris.ImageController do
   def delete(conn, %{"id" => id}) do
     image = Repo.get(Image, id)
 
-    image = Repo.delete(image)
+    image = Repo.delete!(image)
     render(conn, "show.json", image: image)
   end
 end
