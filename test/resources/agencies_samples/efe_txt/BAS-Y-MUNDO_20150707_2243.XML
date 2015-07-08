@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+  <!--NewsML documentation and last changes: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm.
+Documentacion NewsML y últimos cambios: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm-->
+  <NewsEnvelope>
+    <SentFrom>
+      <Party FormalName="EFE">
+        <Property FormalName="Organization" Value="Agencia EFE" />
+      </Party>
+    </SentFrom>
+    <DateAndTime>20150707T204313+0000</DateAndTime>
+    <NewsProduct FormalName="Servicio Internacional" />
+  </NewsEnvelope>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919603">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T204100+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919603</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T204100+0000:20919603:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T204100+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T204100+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919603.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Belice estará representado por 3 deportistas en los Panamericanos de Toronto</HeadLine>
+        <SubHeadLine>PANAMERICANOS TORONTO 2015</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="nbb/jm/mgl/car" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <SubjectCode>
+          <!--Deporte-->
+          <Subject FormalName="15000000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Deporte ; Atletismo-->
+          <SubjectMatter FormalName="15005000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Deporte ; Triatlón-->
+          <SubjectMatter FormalName="15066000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="DEP:DEPORTES;DEP:DEPORTES,ATLETISMO;DEP:DEPORTES,OTROS" />
+        <Property FormalName="EfePais" Value="" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Belice estará representado por 3 deportistas en los Panamericanos de Toronto</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="DEP" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Deporte-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="15000000" tobject.subject.type="Deporte" />
+                <!--Deporte;Atletismo-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="15005000" tobject.subject.type="Deporte" tobject.subject.matter="Atletismo" />
+                <!--Deporte;Triatlón-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="15066000" tobject.subject.type="Deporte" tobject.subject.matter="Triatlón" />
+                <!--DEP:DEPORTES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F07000000" tobject.subject.type="DEP:DEPORTES" />
+                <!--DEP:DEPORTES;ATLETISMO-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F07002000" tobject.subject.type="DEP:DEPORTES" tobject.subject.matter="ATLETISMO" />
+                <!--DEP:DEPORTES;OTROS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F07024000" tobject.subject.type="DEP:DEPORTES" tobject.subject.matter="OTROS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="San Juan" />
+                <doc-id id-string="20919603" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T204100+0000" />
+                <key-list>
+                  <keyword key="PANAMERICANOS TORONTO 2015" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T204100+0000" edition.area="BGM DCH DXE AMT MXC RDO COL USA PUR" item-length="00130" unit-of-measure="word" id="CL2149" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Belice estará representado por 3 deportistas en los Panamericanos de Toronto</hl1>
+                  <hl2>PANAMERICANOS TORONTO 2015</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>nbb/jm/mgl/car</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T204100+0000">20150707T204100+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Belice, con una población aproximada de 330.000 habitantes, enviará mañana una pequeña delegación de tres deportistas para competir en los XVII Juegos Panamericanos de Toronto, que se llevarán a cabo del 10 al 26 de julio.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>San Juan, 7 jul (EFE).- Belice, con una población aproximada de 330.000 habitantes, enviará mañana una pequeña delegación de tres deportistas para competir en los XVII Juegos Panamericanos de Toronto, que se llevarán a cabo del 10 al 26 de julio.</p>
+                <p>Según publica hoy el periódico local Amandala, Amed Figueroa, Kaina Martínez y Mark Anderson serán los representantes del país centroamericano en la competencia, en la que participarán alrededor de 7 mil deportistas de 41 países.</p>
+                <p>Figueroa participará en el triatlón, que tendrá lugar entre el 11 y el 12 de julio, mientras que Martínez y Anderson competirán en las pruebas de los 100 metros, que comenzarán el próximo día 21.</p>
+                <p>Allan Sharp es el jefe de misión de la delegación beliceña en los Juegos Panamericanos Toronto 2015. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919602">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T204100+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919602</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T204100+0000:20919602:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T204100+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T204100+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="2" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919602.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Rajoy avanza Eurogrupo el sábado y cumbre el domingo ante propuesta griega</HeadLine>
+        <SubHeadLine>(Urgente) CRISIS GRECIA ESPAÑA</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="(foto)(vídeo)" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="ESP" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas-->
+          <Subject FormalName="04000000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA" />
+        <Property FormalName="EfePais" Value="ESP" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="Urgente" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Rajoy avanza Eurogrupo el sábado y cumbre el domingo ante propuesta griega</title>
+              <meta name="prioridad" content="B" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="Urgente" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04000000" tobject.subject.type="Economía, negocios y finanzas" />
+                <!--ECO:ECONOMIA-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06000000" tobject.subject.type="ECO:ECONOMIA" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Bruselas" iso-cc="ESP" />
+                <doc-id id-string="20919602" />
+                <urgency ed-urg="2" />
+                <date.issue norm="20150707T204100+0000" />
+                <key-list>
+                  <keyword key="(Urgente) CRISIS GRECIA ESPAÑA" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T204100+0000" edition.area="EXG NAT MUN MXC COL RDO PUR USA FIB" item-length="00052" unit-of-measure="word" id="NC2162" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Rajoy avanza Eurogrupo el sábado y cumbre el domingo ante propuesta griega</hl1>
+                  <hl2>(Urgente) CRISIS GRECIA ESPAÑA</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>(foto)(vídeo)</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T204100+0000">20150707T204100+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Bruselas, 7 jul (EFE).- El presidente del Gobierno español, Mariano Rajoy, ha anunciado hoy que los líderes de la UE han acordado una reunión del Eurogrupo el sábado y una cumbre europea el domingo para analizar la petición que va a hacer Grecia de un nuevo programa de rescate. EFE</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Bruselas, 7 jul (EFE).- El presidente del Gobierno español, Mariano Rajoy, ha anunciado hoy que los líderes de la UE han acordado una reunión del Eurogrupo el sábado y una cumbre europea el domingo para analizar la petición que va a hacer Grecia de un nuevo programa de rescate. EFE</p>
+                <p>BB/cd</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919598">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T203900+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919598</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T203900+0000:20919598:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T203900+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T203900+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919598.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>EEUU denuncia la detención de unos 100 activistas en Cuba el domingo</HeadLine>
+        <SubHeadLine>CUBA DISIDENTES EEUU</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="llb/hma/eat" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="USA" />
+        </Location>
+        <SubjectCode>
+          <!--Política ; Asuntos exteriores-->
+          <SubjectMatter FormalName="11002000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Política ; Derechos humanos-->
+          <SubjectMatter FormalName="11007000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="POL:POLITICA,EXTERIOR;SOC:SOCIEDAD-SALUD,SOLIDARIDAD-DERECHOS" />
+        <Property FormalName="EfePais" Value="USA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>EEUU denuncia la detención de unos 100 activistas en Cuba el domingo</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="POL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Política;Asuntos exteriores-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11002000" tobject.subject.type="Política" tobject.subject.matter="Asuntos exteriores" />
+                <!--Política;Derechos humanos-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11007000" tobject.subject.type="Política" tobject.subject.matter="Derechos humanos" />
+                <!--POL:POLITICA;EXTERIOR-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01008000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="EXTERIOR" />
+                <!--SOC:SOCIEDAD-SALUD;SOLIDARIDAD-DERECHOS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F04009000" tobject.subject.type="SOC:SOCIEDAD-SALUD" tobject.subject.matter="SOLIDARIDAD-DERECHOS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Washington" iso-cc="USA" />
+                <doc-id id-string="20919598" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T203900+0000" />
+                <key-list>
+                  <keyword key="CUBA DISIDENTES EEUU" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T203900+0000" edition.area="BGM INF MUN BDA MXC RDO COL LHA" item-length="00500" unit-of-measure="word" id="CL2148" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>EEUU denuncia la detención de unos 100 activistas en Cuba el domingo</hl1>
+                  <hl2>CUBA DISIDENTES EEUU</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>llb/hma/eat</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T203900+0000">20150707T203900+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Estados Unidos denunció hoy la detención de unos 100 activistas pacíficos en Cuba el pasado domingo y expresó su profunda preocupación al respecto, pero subrayó que ese hecho no entorpecerá el proceso de restablecimiento de relaciones diplomáticas.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Washington, 7 jul (EFE).- Estados Unidos denunció hoy la detención de unos 100 activistas pacíficos en Cuba el pasado domingo y expresó su profunda preocupación al respecto, pero subrayó que ese hecho no entorpecerá el proceso de restablecimiento de relaciones diplomáticas.</p>
+                <p>El Departamento de Estado de EE.UU. ha visto "informes sobre la paliza y detención al activista político (Antonio González) Rodiles y la detención de casi 100 activistas pacíficos por parte de las autoridades cubanas el domingo por la tarde", dijo el portavoz de la diplomacia estadounidense, John Kirby.</p>
+                <p>"Miembros de nuestra Sección de Intereses (en La Habana) han confirmado estos preocupantes informes. Seguiremos criticando las violaciones de derechos humanos y abogando por los derechos de asamblea política, asociación y libertad de expresión y religión", indicó Kirby en su conferencia de prensa diaria.</p>
+                <p>"Siempre vamos a ser muy francos y muy claros respecto a nuestras preocupaciones sobre derechos humanos cuando y donde las veamos", añadió.</p>
+                <p>Representantes de la disidencia interna cubana denunciaron el lunes al menos un centenar de arrestos el domingo y agresiones por parte de la Policía, la mayoría de ellas durante una caminata tras asistir a misa, y destacaron el caso del opositor González Rodiles, quien sufrió una fractura en la nariz y tuvo que ser operado.</p>
+                <p>Kirby no aclaró si el Gobierno de EE.UU. ha comunicado directamente al cubano su inquietud por esos hechos, pero afirmó que varios altos funcionarios estadounidenses han emitido mensajes públicos "muy claros" sobre esos incidentes.</p>
+                <p>La secretaria de Estado adjunta de EE.UU. para Latinoamérica, Roberta Jacobson, expresó el lunes en la red social Twitter su preocupación por el arresto de González Rodiles y de "decenas de activistas detenidos rumbo a misa" el domingo, y afirmó que esos "ataques nunca pueden justificarse".</p>
+                <p>En el mismo sentido, la embajadora estadounidense ante la ONU, Samantha Power, calificó hoy de "alarmante" la "represión de la sociedad civil en Cuba", también en su cuenta oficial de Twitter.</p>
+                <p>No obstante, Kirby afirmó hoy que esos hechos no cambiarán la política estadounidense respecto a la reanudación de las relaciones diplomáticas con Cuba, que entrará en vigor el próximo 20 de julio con la apertura de embajadas en las respectivas capitales.</p>
+                <p>"De hecho, esto refuerza la necesidad de seguir adelante con el restablecimiento de las relaciones diplomáticas, porque creemos que abrir esa embajada impulsará nuestra agenda de derechos humanos al abrir canales de relación oficiales", sostuvo Kirby.</p>
+                <p>En el mismo sentido, el portavoz de la Casa Blanca, Josh Earnest, dijo hoy que el presidente estadounidense, Barack Obama, confía en que su nueva estrategia ayude a que "en los próximos años, veamos un Gobierno cubano que haga un mejor trabajo a la hora de respetar e incluso proteger los derechos humanos básicos de su pueblo".</p>
+                <p>La disidente Comisión Cubana de Derechos Humanos y Reconciliación Nacional (CCDHRN) denunció hoy al menos 563 detenciones por motivos políticos en la isla durante junio, una cifra inferior a la registrada en mayo pero "muy alta" en el contexto americano, según la organización. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919597">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T203800+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919597</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T203800+0000:20919597:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T203800+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T203800+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919597.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Unos 60 turistas fueron rescatados en Perú tras tormenta en el lago Titicaca</HeadLine>
+        <SubHeadLine>PERÚ TORMENTA</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="ccb/dub/dmt" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="PER" />
+        </Location>
+        <SubjectCode>
+          <!--Estilo de vida y tiempo libre ; Turismo-->
+          <SubjectMatter FormalName="10006000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Catástrofes y accidentes ; Rescate-->
+          <SubjectMatter FormalName="03017000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="SOC:SOCIEDAD-SALUD,GENTE-CURIOSIDADES;TRI:JUSTICIA-INTERIOR-SUCESOS,SUCESOS" />
+        <Property FormalName="EfePais" Value="PER" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Unos 60 turistas fueron rescatados en Perú tras tormenta en el lago Titicaca</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ETL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Estilo de vida y tiempo libre;Turismo-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="10006000" tobject.subject.type="Estilo de vida y tiempo libre" tobject.subject.matter="Turismo" />
+                <!--Catástrofes y accidentes;Rescate-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="03017000" tobject.subject.type="Catástrofes y accidentes" tobject.subject.matter="Rescate" />
+                <!--SOC:SOCIEDAD-SALUD;GENTE-CURIOSIDADES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F04006000" tobject.subject.type="SOC:SOCIEDAD-SALUD" tobject.subject.matter="GENTE-CURIOSIDADES" />
+                <!--TRI:JUSTICIA-INTERIOR-SUCESOS;SUCESOS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F02003000" tobject.subject.type="TRI:JUSTICIA-INTERIOR-SUCESOS" tobject.subject.matter="SUCESOS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Lima" iso-cc="PER" />
+                <doc-id id-string="20919597" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T203800+0000" />
+                <key-list>
+                  <keyword key="PERÚ TORMENTA" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T203800+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR" item-length="00250" unit-of-measure="word" id="CL2147" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Unos 60 turistas fueron rescatados en Perú tras tormenta en el lago Titicaca</hl1>
+                  <hl2>PERÚ TORMENTA</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>ccb/dub/dmt</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T203800+0000">20150707T203800+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Unos 60 turistas que permanecieron varados durante varias horas en Taquile, una de las islas del lago Titicaca, fueron rescatados en la madrugada de hoy por la Marina de Guerra del Perú después de que se presentara una tormenta con vientos de hasta 60 kilómetros por hora, informaron hoy fuentes oficiales.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Lima, 7 jul (EFE).- Unos 60 turistas que permanecieron varados durante varias horas en Taquile, una de las islas del lago Titicaca, fueron rescatados en la madrugada de hoy por la Marina de Guerra del Perú después de que se presentara una tormenta con vientos de hasta 60 kilómetros por hora, informaron hoy fuentes oficiales.</p>
+                <p>El capitán de fragata de la Marina Juan José González declaró a la emisora RPP Noticias que los turistas nacionales y extranjeros retornaron en patrulleros lacustres a la ciudad de Puno, cercana a la frontera con Bolivia.</p>
+                <p>Los turistas permanecieron varados en Taquile desde las dos de la tarde del lunes, un hecho que fue denunciado por teléfono a RPP por la turista Susan Fernández.</p>
+                <p>Ante este hecho, el capitán González lamentó que el reporte del tiempo y las medidas de prevención adoptadas no fueran informadas a tiempo a los turistas.</p>
+                <p>Señaló que ante la presencia de una tormenta, con fuertes vientos y oleajes en el lago, la Marina de Guerra prohibió que las embarcaciones zarparan de la isla y navegaran de regreso a la ciudad de Puno.</p>
+                <p>Remarcó, sin embargo, que la isla de Taquile es segura y cuenta con albergues turísticos que podían brindar todas las comodidades a las personas que permanecieron en el lugar.</p>
+                <p>El Titicaca, que comparten Perú y Bolivia, es el lago navegable más alto del mundo, al encontrarse a una altitud de 3.812 metros sobre el nivel del mar, y tiene una extensión de 8.562 kilómetros cuadrados. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919588">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T203400+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919588</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T203400+0000:20919588:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T203400+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T203400+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919588.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>La bolsa de Sao Paulo sube un 0,37 % y avanza hasta los 52.343 puntos</HeadLine>
+        <SubHeadLine>BOLSA SAO PAULO CIERRE</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="wgm/cav" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="BRA" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Mercados y bolsas ; Bolsa de valores-->
+          <SubjectDetail FormalName="04009003" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Macroeconomía ; Mercados de divisas-->
+          <SubjectDetail FormalName="04008006" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,BOLSAS-VALORES;ECO:ECONOMIA,MERCADOS-FINANZAS,DIVISAS" />
+        <Property FormalName="EfePais" Value="BRA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>La bolsa de Sao Paulo sube un 0,37 % y avanza hasta los 52.343 puntos</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Mercados y bolsas;Bolsa de valores-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04009003" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Mercados y bolsas" tobject.subject.detail="Bolsa de valores" />
+                <!--Economía, negocios y finanzas;Macroeconomía;Mercados de divisas-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04008006" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Macroeconomía" tobject.subject.detail="Mercados de divisas" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;BOLSAS-VALORES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002002" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="BOLSAS-VALORES" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;DIVISAS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002004" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="DIVISAS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Sao Paulo" iso-cc="BRA" />
+                <doc-id id-string="20919588" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T203400+0000" />
+                <key-list>
+                  <keyword key="BOLSA SAO PAULO CIERRE" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T203400+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR FIB IBS" item-length="00080" unit-of-measure="word" id="CL2145" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>La bolsa de Sao Paulo sube un 0,37 % y avanza hasta los 52.343 puntos</hl1>
+                  <hl2>BOLSA SAO PAULO CIERRE</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>wgm/cav</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T203400+0000">20150707T203400+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El índice Ibovespa de la bolsa de Sao Paulo subió hoy un 0,37 % y avanzó hasta los 52.343 puntos, de acuerdo con el balance preliminar divulgado al final de la sesión.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Sao Paulo, 7 jul (EFE).- El índice Ibovespa de la bolsa de Sao Paulo subió hoy un 0,37 % y avanzó hasta los 52.343 puntos, de acuerdo con el balance preliminar divulgado al final de la sesión.</p>
+                <p>En el mercado de divisas, el real se depreció hoy un 1,27 % frente al dólar, moneda que cerró la jornada negociada a 3,180 reales para la compra y a 3,182 para la venta en el tipo de cambio comercial brasileño. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919584">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T203000+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919584</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T203000+0000:20919584:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T203000+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T203000+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919584.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>El peso uruguayo se deprecia un 0,72 % frente al dólar</HeadLine>
+        <SubHeadLine>DÓLAR PESO URUGUAYO</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="rgm/dmt" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="URY" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Macroeconomía ; Mercados de divisas-->
+          <SubjectDetail FormalName="04008006" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,DIVISAS" />
+        <Property FormalName="EfePais" Value="URY" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>El peso uruguayo se deprecia un 0,72 % frente al dólar</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Macroeconomía;Mercados de divisas-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04008006" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Macroeconomía" tobject.subject.detail="Mercados de divisas" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;DIVISAS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002004" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="DIVISAS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Montevideo" iso-cc="URY" />
+                <doc-id id-string="20919584" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T203000+0000" />
+                <key-list>
+                  <keyword key="DÓLAR PESO URUGUAYO" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T203000+0000" edition.area="BGM INF BRA AND COL FIB IBS" item-length="00057" unit-of-measure="word" id="CL2144" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>El peso uruguayo se deprecia un 0,72 % frente al dólar</hl1>
+                  <hl2>DÓLAR PESO URUGUAYO</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>rgm/dmt</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T203000+0000">20150707T203000+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El peso uruguayo se depreció hoy un 0,72 % frente al dólar estadounidense al término de las operaciones de la jornada en el mercado de cambio libre de Montevideo, informó el Banco de la República del Uruguay (BROU).</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Montevideo, 7 jul (EFE).- El peso uruguayo se depreció hoy un 0,72 % frente al dólar estadounidense al término de las operaciones de la jornada en el mercado de cambio libre de Montevideo, informó el Banco de la República del Uruguay (BROU).</p>
+                <p />
+                <p>Venta: 27,85</p>
+                <p>Compra: 27,05</p>
+                <p />
+                <p>El peso uruguayo perdió 20 céntimos frente al dólar. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919581">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202700+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919581</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202700+0000:20919581:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202700+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202700+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919581.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>El real se deprecia un 1,27 % y el dólar se vende a 3,182 reales en Brasil</HeadLine>
+        <SubHeadLine>DÓLAR REAL</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="wgm/dmt" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="BRA" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Macroeconomía ; Mercados de divisas-->
+          <SubjectDetail FormalName="04008006" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,DIVISAS" />
+        <Property FormalName="EfePais" Value="BRA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>El real se deprecia un 1,27 % y el dólar se vende a 3,182 reales en Brasil</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Macroeconomía;Mercados de divisas-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04008006" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Macroeconomía" tobject.subject.detail="Mercados de divisas" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;DIVISAS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002004" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="DIVISAS" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Sao Paulo" iso-cc="BRA" />
+                <doc-id id-string="20919581" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202700+0000" />
+                <key-list>
+                  <keyword key="DÓLAR REAL" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202700+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR FIB IBS" item-length="00052" unit-of-measure="word" id="CL2143" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>El real se deprecia un 1,27 % y el dólar se vende a 3,182 reales en Brasil</hl1>
+                  <hl2>DÓLAR REAL</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>wgm/dmt</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202700+0000">20150707T202700+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El real se depreció hoy un 1,27 % frente al dólar, moneda que cerró la jornada negociada a 3,180 reales para la compra y a 3,182 para la venta en el tipo de cambio comercial brasileño.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Sao Paulo, 7 jul (EFE).- El real se depreció hoy un 1,27 % frente al dólar, moneda que cerró la jornada negociada a 3,180 reales para la compra y a 3,182 para la venta en el tipo de cambio comercial brasileño.</p>
+                <p />
+                <p>Dólar comercial:</p>
+                <p>Compra  Venta</p>
+                <p>3,180   3,182</p>
+                <p>Fuente: mercado financiero. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919575">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202400+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919575</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202400+0000:20919575:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202400+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202400+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919575.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Bolsa de Buenos Aires sube 0,45 por ciento</HeadLine>
+        <SubHeadLine>BOLSA BUENOS AIRES CIERRE</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="ayv/nk/cav" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="ARG" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Mercados y bolsas ; Bolsa de valores-->
+          <SubjectDetail FormalName="04009003" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,BOLSAS-VALORES" />
+        <Property FormalName="EfePais" Value="ARG" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Bolsa de Buenos Aires sube 0,45 por ciento</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Mercados y bolsas;Bolsa de valores-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04009003" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Mercados y bolsas" tobject.subject.detail="Bolsa de valores" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;BOLSAS-VALORES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002002" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="BOLSAS-VALORES" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Buenos Aires" iso-cc="ARG" />
+                <doc-id id-string="20919575" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202400+0000" />
+                <key-list>
+                  <keyword key="BOLSA BUENOS AIRES CIERRE" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202400+0000" edition.area="BGM INF MMS BDA MXC RDO COL USA PUR FIB IBS" item-length="00174" unit-of-measure="word" id="CL2142" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Bolsa de Buenos Aires sube 0,45 por ciento</hl1>
+                  <hl2>BOLSA BUENOS AIRES CIERRE</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>ayv/nk/cav</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202400+0000">20150707T202400+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El índice Merval de las acciones de las empresas líderes que se cotizan en la Bolsa de Comercio de Buenos Aires cerró hoy con un aumento del 0,45 %, hasta las 11.842,55 unidades.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Buenos Aires, 7 jul (EFE).- El índice Merval de las acciones de las empresas líderes que se cotizan en la Bolsa de Comercio de Buenos Aires cerró hoy con un aumento del 0,45 %, hasta las 11.842,55 unidades.</p>
+                <p>Al concluir la jornada, el Índice General de la Bolsa se ubicó en los 493.643,59 puntos, con una subida del 0,17 %, en tanto que el Merval 25 avanzó un 0,54 %, hasta las 12.131,81 unidades.</p>
+                <p>El volumen de negocios operados en acciones totalizó 154,3 millones de pesos (16,9 millones de dólares), con un resultado de 30 subidas, 30 descensos y 8 títulos sin cambios en su cotización.</p>
+                <p>Entre las líderes, cerraron en terreno positivo principalmente los papeles de Siderar (+2,24 %), Petrobras (+1,48 %) y Banco Macro (+1,18 %).</p>
+                <p>Por el contrario, bajaron las acciones de YPF (-1,28 %), Pampa Energía (-1,02 %) y Edenor (0,45 %).</p>
+                <p>En el mercado de divisas, el precio del dólar estadounidense se mantuvo estable y cotizó a 9,01 pesos para la compra y 9,11 para la venta. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919574">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202300+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919574</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202300+0000:20919574:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202300+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202300+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919574.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>El Atlético forma un ataque de 82 goles en la temporada pasada</HeadLine>
+        <SubHeadLine>FÚTBOL ESPAÑA ATLÉTICO DE MADRID (Análisis)</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="id/sab" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <SubjectCode>
+          <!--Deporte ; Fútbol-->
+          <SubjectMatter FormalName="15054000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="DEP:DEPORTES,FUTBOL" />
+        <Property FormalName="EfePais" Value="" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="Análisis" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>El Atlético forma un ataque de 82 goles en la temporada pasada</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="DEP" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="Análisis" />
+              <tobject tobject.type="News">
+                <!--Deporte;Fútbol-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="15054000" tobject.subject.type="Deporte" tobject.subject.matter="Fútbol" />
+                <!--DEP:DEPORTES;FUTBOL-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F07001000" tobject.subject.type="DEP:DEPORTES" tobject.subject.matter="FUTBOL" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Madrid" />
+                <doc-id id-string="20919574" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202300+0000" />
+                <key-list>
+                  <keyword key="FÚTBOL ESPAÑA ATLÉTICO DE MADRID (Análisis)" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202300+0000" edition.area="AMT RDO COL MXC PUR USA DXE" item-length="00496" unit-of-measure="word" id="DG2109" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>El Atlético forma un ataque de 82 goles en la temporada pasada</hl1>
+                  <hl2>FÚTBOL ESPAÑA ATLÉTICO DE MADRID (Análisis)</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>id/sab</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202300+0000">20150707T202300+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Los fichajes del colombiano Jackson Martínez y del argentino Luciano Vietto, más la continuidad en el equipo del francés Antoine Griezmann y Fernando Torres, configuran un potente ataque para el nuevo curso en el Atlético de Madrid, con cuatro delanteros que sumaron 82 goles durante la pasada temporada.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Madrid, 7 jul (EFE).- Los fichajes del colombiano Jackson Martínez y del argentino Luciano Vietto, más la continuidad en el equipo del francés Antoine Griezmann y Fernando Torres, configuran un potente ataque para el nuevo curso en el Atlético de Madrid, con cuatro delanteros que sumaron 82 goles durante la pasada temporada.</p>
+                <p>Ya sin el croata Mario Mandzukic, autor de veinte tantos en su primera y única campaña como rojiblanco y traspasado al Juventus, y a la espera de qué sucede con el mexicano Raúl Jiménez, que podría salir cedido este verano y que marcó una diana con el Atlético en 2014-15, el club ya tiene formado su nuevo cuarteto de delanteros.</p>
+                <p>Jackson Martínez, por el que el Atlético ejercerá la cláusula de rescisión de 35 millones de euros, según oficializó el Oporto hace una semana, fue el más productivo de todos ellos, con treinta goles con el club portugués entre todas las competiciones durante el pasado ejercicio, en el que además dio cinco asistencias.</p>
+                <p>Todo en 41 encuentros, según los datos oficiales de la UEFA, 38 de ellos desde el once inicial del entrenador Julen Lopetegui, su técnico durante la pasada campaña, en la que también disputó la Liga de Campeones. Jackson marcó siete goles en ocho duelos en el torneo europeo. Su equipo fue eliminado en cuartos.</p>
+                <p>También llega al club el argentino Luciano Vietto desde el Villarreal, uno de los delanteros que causó sensación durante la última temporada en el fútbol español en su primer año en el club castellonense, con el anotó veinte goles repartidos entre la Liga Europa y la Liga, con 48 encuentros, 29 de ellos desde el principio.</p>
+                <p>Ambos se suman al francés Antoine Griezmann y a Fernando Torres. El primero aterrizó en el estadio Vicente Calderón hace un año desde la Real Sociedad, a cambio de 30 millones de euros, mientras que el segunda volvió al Atlético siete años después el pasado mes de enero, cedido por dos años desde el Milan, con el que logró un gol.</p>
+                <p>Seis más marcó en la segunda parte de la temporada con el Atlético de Madrid, algunos de ellos esenciales para la tercera posición de su equipo al final de la Liga, como lo fueron muchos de los que aportó Griezmann, que terminó el curso, además, como el mejor artillero del conjunto rojiblanco por delante de Mandzukic.</p>
+                <p>El internacional galo, en esa posición adelantada, cerca del área, que ideó el argentino Diego Simeone y en la que el futbolista se asentó mediada la temporada, cerró el ejercicio pasado con 25 tantos, 22 de ellos en el campeonato de la regularidad. Diecinueve de ellos los marcó en los cinco meses finales del torneo.</p>
+                <p>El mexicano Raúl Jiménez y el argentino Ángel Correa completan la nómina actual de delanteros del Atlético para la nueva temporada, aunque a la espera de si alguno de los dos o ambos permanecen en el club para esta campaña o salen cedidos para acumular más minutos. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919570">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202300+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919570</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202300+0000:20919570:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202300+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202300+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919570.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>España agasaja a Humala y Nadine Heredia con el esplendor del Palacio Real</HeadLine>
+        <SubHeadLine>ESPAÑA PERÚ (Color)</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="(foto) (vídeo)" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="ESP" />
+        </Location>
+        <SubjectCode>
+          <!--Política ; Gobierno ; Jefaturas de estado/ monarquía-->
+          <SubjectDetail FormalName="11006006" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Política ; Asuntos exteriores-->
+          <SubjectMatter FormalName="11002000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="POL:POLITICA,MONARQUIA;POL:POLITICA,EXTERIOR" />
+        <Property FormalName="EfePais" Value="ESP" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="Color" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>España agasaja a Humala y Nadine Heredia con el esplendor del Palacio Real</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="POL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="Color" />
+              <tobject tobject.type="News">
+                <!--Política;Gobierno;Jefaturas de estado/ monarquía-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11006006" tobject.subject.type="Política" tobject.subject.matter="Gobierno" tobject.subject.detail="Jefaturas de estado/ monarquía" />
+                <!--Política;Asuntos exteriores-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11002000" tobject.subject.type="Política" tobject.subject.matter="Asuntos exteriores" />
+                <!--POL:POLITICA;MONARQUIA-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01005000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="MONARQUIA" />
+                <!--POL:POLITICA;EXTERIOR-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01008000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="EXTERIOR" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Madrid" iso-cc="ESP" />
+                <doc-id id-string="20919570" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202300+0000" />
+                <key-list>
+                  <keyword key="ESPAÑA PERÚ (Color)" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202300+0000" edition.area="MUN COL USA PUR MXC RDO" item-length="00529" unit-of-measure="word" id="NC2152" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>España agasaja a Humala y Nadine Heredia con el esplendor del Palacio Real</hl1>
+                  <hl2>ESPAÑA PERÚ (Color)</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>(foto) (vídeo)</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202300+0000">20150707T202300+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>La tercera visita de Estado del reinado de Felipe VI permitió hoy ofrecer el esplendor de los salones del Palacio Real al presidente de Perú, Ollanta Humala, y su esposa, Nadine Heredia, agasajados por los Reyes con una cena de gala a la que ha asistido más de un centenar de invitados.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Antonio del Rey</p>
+                <p>Madrid, 7 jul (EFE).- La tercera visita de Estado del reinado de Felipe VI permitió hoy ofrecer el esplendor de los salones del Palacio Real al presidente de Perú, Ollanta Humala, y su esposa, Nadine Heredia, agasajados por los Reyes con una cena de gala a la que ha asistido más de un centenar de invitados.</p>
+                <p>Pese al retraso con el que comenzó el saludo a los comensales en el Salón del Trono en el Palacio Real, entretenido con animados comentarios de los asistentes -con frac en el caso de los hombres y vestido largo las mujeres- la ceremonia ha mantenido la brillantez que siempre se espera en los actos de máximo protocolo.</p>
+                <p>Felipe VI ha portado el Toisón de Oro, además del Collar de la Orden del Sol, en tanto que la Reina Letizia, con un vestido azul lapislázuli y tocada con la tiara floral, ha lucido la Gran Cruz de la misma orden, la de más alto rango de Perú.</p>
+                <p>En correspondencia, el presidente Humala llevaba el Collar de la Orden de Isabel la Católica, y su esposa, la Gran Cruz.</p>
+                <p>Los cuatro han accedido juntos al salón donde les esperaban los invitados, encabezados por la vicepresidenta del Gobierno, Soraya Sáenz de Santamaría, hoy en funciones de presidenta ante la ausencia de Mariano Rajoy, convocado en Bruselas para abordar la crisis griega con los demás líderes europeos.</p>
+                <p>Uno a uno han ido pasando todos, comenzando por las principales autoridades institucionales españolas, el presidente del Senado, Pío García-Escudero; el del Tribunal Constitucional, Francisco Pérez de los Cobos; y los ministros de Exteriores, José Manuel García-Margallo; Defensa, Pedro Morenés, y Sanidad, Alfonso Alonso.</p>
+                <p>La nueva presidenta de la Comunidad de Madrid, Cristina Cifuentes, ha acudido también a la cena de gala, al igual que representantes del mundo empresarial y cultural, como el presidente de la Real Academia, Darío Villanueva.</p>
+                <p>Del ámbito artístico ha destacado el cantante Raphael, y escritores peruanos como Fernando Iwasaki, último Premio Rey de España de Periodismo, o Santiago Roncagliolo, no así el Premio Nobel de Literatura Mario Vargas Llosa, a quien sin embargo citó Ollanta Humala en el brindis previo a la cena al aludir a las grandes aportaciones del Perú a las letras en español.</p>
+                <p>La cantante peruana Tania Libertad, a quienes Humala y su esposa han saludado con dos besos cariñosos, también ha estado presente dentro de una delegación peruana encabezada por tres ministros, entre ellos su presidente del Consejo de Ministros, Pedro Cateriano.</p>
+                <p>La representación empresarial ha sido muy nutrida, gracias a los presidentes de importantes compañías españolas como Enagas, Ferrovial, Técnicas Reunidas, FCC, Grupo Villar Mir, Isolux, Acciona, Gas Natural Fenosa y Abengoa.</p>
+                <p>La cena ha consistido en una olivada (una suerte de gazpacho), caballa con encurtidos, lubina mediterránea, y en el postre un guiño a la prestigiosa cocina peruana: suspiro limeño.</p>
+                <p>Y como es costumbre en las cenas de gala, la banda de música de la Guardia Real se ha encargado de amenizar la velada desde una estancia contigua al comedor de gala, con melodías peruanas tradicionales, incluido el clásico "El cóndor pasa", piezas de Albéniz y adaptaciones del grupo pop contemporáneo Amaral. EFE</p>
+                <p>adr/plv</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919568">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202300+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919568</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202300+0000:20919568:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202300+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202300+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919568.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>El Atlético inicia este miércoles la pretemporada con Vietto como novedad</HeadLine>
+        <SubHeadLine>FÚTBOL ATLÉTICO DE MADRID (Actualización)</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="id/jag/sab" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <SubjectCode>
+          <!--Deporte ; Fútbol-->
+          <SubjectMatter FormalName="15054000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="DEP:DEPORTES,FUTBOL" />
+        <Property FormalName="EfePais" Value="" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="Actualización" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>El Atlético inicia este miércoles la pretemporada con Vietto como novedad</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="DEP" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="Actualización" />
+              <tobject tobject.type="News">
+                <!--Deporte;Fútbol-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="15054000" tobject.subject.type="Deporte" tobject.subject.matter="Fútbol" />
+                <!--DEP:DEPORTES;FUTBOL-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F07001000" tobject.subject.type="DEP:DEPORTES" tobject.subject.matter="FUTBOL" />
+              </tobject>
+              <docdata management-status="usable">
+                <doc-id id-string="20919568" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202300+0000" />
+                <key-list>
+                  <keyword key="FÚTBOL ATLÉTICO DE MADRID (Actualización)" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202300+0000" edition.area="DPG MUN RDO COL MXC PUR USA DXE" item-length="00791" unit-of-measure="word" id="DG2107" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>El Atlético inicia este miércoles la pretemporada con Vietto como novedad</hl1>
+                  <hl2>FÚTBOL ATLÉTICO DE MADRID (Actualización)</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>id/jag/sab</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202300+0000">20150707T202300+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El Atlético de Madrid iniciará mañana su pretemporada con la plantilla aún incompleta, con la novedad de Luciano Vietto, a la espera de Jackson Martínez, con cinco bajas ya confirmadas, entre ellas Arda Turan, Joao Miranda y Mario Mandzukic, y con más movimientos pendientes en cuanto a fichajes y salidas.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>(Actualiza el primer, quinto, sexto y undécimo párrafo tras el anuncio oficial del fichaje de Vietto por el Atlético de Madrid)</p>
+                <p>Madrid, 7 jul (EFE).- El Atlético de Madrid iniciará mañana su pretemporada con la plantilla aún incompleta, con la novedad de Luciano Vietto, a la espera de Jackson Martínez, con cinco bajas ya confirmadas, entre ellas Arda Turan, Joao Miranda y Mario Mandzukic, y con más movimientos pendientes en cuanto a fichajes y salidas.</p>
+                <p>Después de mes y medio de vacaciones, desde el empate sin goles frente al Granada en el estadio Nuevo Los Cármenes y que ratificó la tercera posición de Liga y la clasificación vía directa para la fase de grupos de la Liga de Campeones por tercer año seguido, el cuarto proyecto del argentino Diego Simeone dará mañana sus primeros pasos.</p>
+                <p>Lo hará con la irrenunciable ambición de siempre, con su habitual mentalidad ganadora y avalado por las cotas altísimas que ha alcanzado el equipo en tres años y medio a las órdenes del 'Cholo'. En ese tiempo, ha ganado cinco títulos: una Liga, una Copa del Rey, una Supercopa de España, una Liga Europa y una Supercopa de Europa.</p>
+                <p>A las 9.15 horas en la Ciudad Deportiva de Majadahonda es la cita para el primero de los entrenamientos de la pretemporada, que se desarrollarán durante los primeros cinco días en esas instalaciones, antes de trasladarse el domingo a Los Ángeles de San Rafael, en la sierra segoviana, donde se ejercitará desde el próximo lunes.</p>
+                <p>Aún sin la plantilla completa, porque, de momento, el único fichaje oficial es el del argentino Luciano Vietto, que se pondrá este miércoles a las órdenes de Simeone tras llegar esta noche a Madrid. La incorporación del colombiano Jackson Martínez, ya atada, también será oficial en los próximos días, según las previsiones.</p>
+                <p>El Atlético, además, espera más incorporaciones, entre ellas un medio centro, con la opción de Thiago Motta sobre la mesa, pendiente del París Saint Germain, o un lateral izquierdo, con el brasileño Filipe Luis como favorito.</p>
+                <p>En principio, el planteamiento también incluye la vuelta de Óliver Torres desde el Oporto, la disponibilidad del argentino Ángel Correa y algún fichaje más, entre ellos un sustituto para el turco Arda Turan, cuyo traspaso al Barcelona fue anunciado este lunes por ambos clubes por 34 millones de euros fijos y siete en variables.</p>
+                <p>Lo mismo ocurre en el centro de la defensa, con la cercana marcha del belga Toby Alderweireld, que ha jugado cedido el pasado curso en el Southampton y que también ha expresado su deseo de salir a otro equipo, algo que probablemente sucederá en los próximos días, por lo que también se trabaja en la incorporación de un central.</p>
+                <p>De momento, respecto a la plantilla de la pasada temporada, ya hay cinco bajas confirmadas: el croata Mario Mandzukic, al Juventus; el brasileño Joao Miranda, al Inter de Milan; y el turco Arda Turan, al Barcelona, además de la no continuidad del argentino Cristian Ansaldi y de Rubén Gracia, 'Cani', que vuelven al Zenit y al Villarreal, respectivamente, tras jugar cedidos en el Atlético.</p>
+                <p>Además de Toby Alderweireld, Mario Suárez, pretendido por el Inter, es otra salida probable durante este verano, con un futuro incierto también para el mexicano Raúl Jiménez, quien podría ir cedido un año a otro club, o el brasileño Guilherme Siqueira.</p>
+                <p>Con todos esos movimientos de fondo, Simeone dispondrá, en cualquier caso, de Vietto y casi toda la base del equipo de la pasada temporada: el portero Jan Oblak; los defensas Juanfran Torres, Diego Godín, José María Giménez y Jesús Gámez; los medios Tiago Mendes, Gabi Fernández, Koke Resurrección, Raúl García y Saúl Ñíguez; y los delanteros Antoine Griezmann y Fernando Torres.</p>
+                <p>Desde este miércoles tendrá a varios de ellos a sus órdenes para el inicio de la pretemporada, una vez que los internacionales europeos se unirán el domingo al trabajo, justo cuando el equipo se desplazará a Los Ángeles de San Rafael, a unos 80 kilómetros de Madrid, y más tarde lo harán Godín, Giménez y Jackson Martínez, tras disputar la Copa América 2015. Los tres llegaron a cuartos de final.</p>
+                <p>En total, el cuerpo técnico ha previsto unos 50 entrenamientos para la pretemporada, que incluye además seis amistosos: el primero será el sábado 25 de julio en Burgo de Osma, en el Memorial Jesús Gil y Gil, frente al Numancia; el segundo el día 28 de ese mes contra el Oviedo en el Carlos Tartiere; el tercero el 1 de agosto en Japón contra el Tosu; el cuarto el día 4 ante el Shanghai SIPG en China; y el quinto y el sexto en el Trofeo Carranza de Cádiz, previsto para el 15 y 16 de agosto. La Liga comienza el día 22. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919564">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T202200+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919564</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T202200+0000:20919564:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T202200+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T202200+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919564.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Presidente salvadoreño se reúne con consejero de Gobierno EEUU Thomas Shannon</HeadLine>
+        <SubHeadLine>CENTROAMÉRICA EEUU</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="(foto)" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="SLV" />
+        </Location>
+        <SubjectCode>
+          <!--Política ; Cooperación internacional-->
+          <SubjectMatter FormalName="11005000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="POL:POLITICA,MULTILATERAL" />
+        <Property FormalName="EfePais" Value="SLV" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Presidente salvadoreño se reúne con consejero de Gobierno EEUU Thomas Shannon</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="POL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Política;Cooperación internacional-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11005000" tobject.subject.type="Política" tobject.subject.matter="Cooperación internacional" />
+                <!--POL:POLITICA;MULTILATERAL-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01009000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="MULTILATERAL" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="San Salvador" iso-cc="SLV" />
+                <doc-id id-string="20919564" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T202200+0000" />
+                <key-list>
+                  <keyword key="CENTROAMÉRICA EEUU" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T202200+0000" edition.area="BGM INF MSP BDA MXC RDO COL USA PUR WSH" item-length="00357" unit-of-measure="word" id="CL2141" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Presidente salvadoreño se reúne con consejero de Gobierno EEUU Thomas Shannon</hl1>
+                  <hl2>CENTROAMÉRICA EEUU</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>(foto)</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T202200+0000">20150707T202200+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El presidente salvadoreño, Salvador Sánchez Cerén, se reunió hoy con el consejero del Gobierno estadounidense Thomas Shannon para abordar temas de seguridad, gobernabilidad y prosperidad económica, enmarcados en el plan Alianza para la Prosperidad, informó hoy la Presidencia salvadoreña.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>San Salvador, 7 jul (EFE).- El presidente salvadoreño, Salvador Sánchez Cerén, se reunió hoy con el consejero del Gobierno estadounidense Thomas Shannon para abordar temas de seguridad, gobernabilidad y prosperidad económica, enmarcados en el plan Alianza para la Prosperidad, informó hoy la Presidencia salvadoreña.</p>
+                <p>Sánchez Cerén "agradeció el apoyo" del gobierno de Estados Unidos al desarrollo de la región centroamericana y destacó que el país del Norte "ha sido siempre un socio estratégico".</p>
+                <p>"No dudamos de que continuaremos en este camino", dijo el jefe de Estado en la reunión privada.</p>
+                <p>La visita de Shannon se "enmarca en el impulso" del Plan de la Alianza para la Prosperidad del Triángulo Norte, formado por El Salvador, Guatemala y Honduras, que busca "generar oportunidades" en la región para frenar la "migración irregular" hacia Estados Unidos.</p>
+                <p>Shannon encabezó una delegación formada por el secretario adjunto de Estado, William Brownfield, y el secretario Adjunto de Seguridad Nacional, Alan Bersin.</p>
+                <p>También, por la administradora adjunta en funciones de la Agencia de los Estados Unidos para el Desarrollo Internacional (USAID), Beth Hogan, y el fiscal general adjunto, Kenneth Blanco.</p>
+                <p> Por su parte, el mandatario salvadoreño fue acompañado por el ministro de Justicia y Seguridad, Benito Lara; el canciller, Hugo Martínez; el ministro de Defensa, David Munguía Payés y el director de la Policía, Mauricio Landaverde.</p>
+                <p>La embajada estadounidense en San Salvador confirmó a Efe que la delegación llegará "hoy mismo" a Honduras.</p>
+                <p>La gira del consejero del Departamento de Estado y su delegación por el Triángulo Norte de Centroamérica se extenderá hasta el 11 de julio.</p>
+                <p>De igual forma, otra delegación compuesta por representantes del Departamento de Comercio, el Departamento de Estado, la Oficina del Representante de Comercio y la Cámara de Comercio de Estados Unidos realizan desde ayer una visita por la región para "hablar sobre el diálogo público-privado" en la implementación del Plan.</p>
+                <p>La principal meta del mismo es promover el desarrollo de la región y frenar la inmigración ilegal de centroamericanos a Estados Unidos, después de que en 2014 se detectara un éxodo masivo de menores no acompañados que obligó al Gobierno norteamericano a declarar una "emergencia humanitaria". EFE</p>
+                <p>hs/sb/ev/cav</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919560">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T201900+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919560</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T201900+0000:20919560:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T201900+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T201900+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919560.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Arrestan en Brasil expolicía acusado de crímenes durante dictadura argentina</HeadLine>
+        <SubHeadLine>ARGENTINA D.HUMANOS BRASIL</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="cm/mp/nrp" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="BRA" />
+        </Location>
+        <SubjectCode>
+          <!--Política ; Derechos humanos-->
+          <SubjectMatter FormalName="11007000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Justicia e interior ; Justicia y derechos-->
+          <SubjectMatter FormalName="02007000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="SOC:SOCIEDAD-SALUD,SOLIDARIDAD-DERECHOS;TRI:JUSTICIA-INTERIOR-SUCESOS,JUSTICIA" />
+        <Property FormalName="EfePais" Value="BRA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Arrestan en Brasil expolicía acusado de crímenes durante dictadura argentina</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="POL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Política;Derechos humanos-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11007000" tobject.subject.type="Política" tobject.subject.matter="Derechos humanos" />
+                <!--Justicia e interior;Justicia y derechos-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="02007000" tobject.subject.type="Justicia e interior" tobject.subject.matter="Justicia y derechos" />
+                <!--SOC:SOCIEDAD-SALUD;SOLIDARIDAD-DERECHOS-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F04009000" tobject.subject.type="SOC:SOCIEDAD-SALUD" tobject.subject.matter="SOLIDARIDAD-DERECHOS" />
+                <!--TRI:JUSTICIA-INTERIOR-SUCESOS;JUSTICIA-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F02001000" tobject.subject.type="TRI:JUSTICIA-INTERIOR-SUCESOS" tobject.subject.matter="JUSTICIA" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Río de Janeiro" iso-cc="BRA" />
+                <doc-id id-string="20919560" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T201900+0000" />
+                <key-list>
+                  <keyword key="ARGENTINA D.HUMANOS BRASIL" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T201900+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR BAS" item-length="00384" unit-of-measure="word" id="CL2140" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Arrestan en Brasil expolicía acusado de crímenes durante dictadura argentina</hl1>
+                  <hl2>ARGENTINA D.HUMANOS BRASIL</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>cm/mp/nrp</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T201900+0000">20150707T201900+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>La policía brasileña arrestó en la sureña ciudad de Porto Alegre al expolicía argentino Roberto Óscar González, buscado por la Interpol y a quien se le acusa de crímenes de lesa humanidad ocurridos durante la última dictadura militar en Argentina, informaron hoy fuentes oficiales.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Río de Janeiro, 7 jul (EFE).- La policía brasileña arrestó en la sureña ciudad de Porto Alegre al expolicía argentino Roberto Óscar González, buscado por la Interpol y a quien se le acusa de crímenes de lesa humanidad ocurridos durante la última dictadura militar en Argentina, informaron hoy fuentes oficiales.</p>
+                <p>El expolicía, de 64 años y por cuya localización el Gobierno argentino ofrecía una recompensa de 60.000 dólares, responderá en su país por crímenes como secuestro, cárcel privada, tortura, amenaza, genocidio, asociación a grupo terrorista y robo calificado, entre otros, según un comunicado de la Policía Federal brasileña.</p>
+                <p>Los delitos de los que se le acusa fueron cometidos entre 1976 y 1997, según la nota.</p>
+                <p>González fue arrestado el lunes en Viamao, una ciudad en el área metropolitana de Porto Alegre, la capital regional más meridional de Brasil, en desarrollo de una operación de inteligencia que permitió establecer que se escondía junto con el también expolicía argentino Pedro Osvaldo Savia, de 63 años, acusado de los mismos crímenes y quien murió el 17 de junio pasado en un hospital en Brasil.</p>
+                <p>"Los dos eran buscados en Brasil hacía más de diez años y fueron localizados en Viamao, en donde vivían", según el comunicado.</p>
+                <p>El extranjero arrestado fue conducido a las celdas de la Policía Federal en Porto Alegre y será encaminado a una prisión en esta región hasta que la máxima corte de justicia del país se pronuncie sobre su extradición.</p>
+                <p>El Supremo Tribunal Federal de Brasil ya había recibido una petición de extradición de Argentina ante las sospechas de que el prófugo se encontraba en el país y ordenó su detención con fines de extradición.</p>
+                <p>El cuerpo del otro policía se encuentra en el Departamento Médico Legal de Porto Alegre, capital de Río Grande do Sul, estado brasileño fronterizo con Argentina y Uruguay.</p>
+                <p>González y Savia fueron incluidos en una lista de 16 represores acusados de delitos de lesa humanidad divulgada en 2009 y por los que el Gobierno argentino ofrecía recompensas.</p>
+                <p>Los crímenes ocurridos entre 1976 y 1983 durante la última dictadura militar en Argentina fueron declarados imprescriptibles por la justicia argentina en 2007.</p>
+                <p>Según cifras oficiales, unas 18.000 personas desaparecieron durante la última dictadura militar en Argentina, aunque organismos de derechos humanos elevan la cifra de víctimas a 30.000. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+</NewsML>

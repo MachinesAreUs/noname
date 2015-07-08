@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+<!--AFP NewsML text-photo profile evolution2-->
+<!--Processed by Xafp1-4ToNewsML1-2 rev25-->
+<Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+<NewsEnvelope>
+<TransmissionId>2225</TransmissionId>
+<DateAndTime>20150707T201141Z</DateAndTime>
+<NewsService FormalName="DGTE"/>
+<NewsProduct FormalName="SJO"/>
+<NewsProduct FormalName="HAV"/>
+<NewsProduct FormalName="MEX"/>
+<NewsProduct FormalName="SCL"/>
+<NewsProduct FormalName="BOG"/>
+<NewsProduct FormalName="RIO"/>
+<NewsProduct FormalName="CCS"/>
+<NewsProduct FormalName="MAS"/>
+<NewsProduct FormalName="BUE"/>
+<NewsProduct FormalName="LIM"/>
+<NewsProduct FormalName="DGTE"/>
+<NewsProduct FormalName="DVBP"/>
+<NewsProduct FormalName="DAGI"/>
+<NewsProduct FormalName="DVBA"/>
+<NewsProduct FormalName="DILI"/>
+<Priority FormalName="4"/>
+</NewsEnvelope>
+<NewsItem xml:lang="es">
+<Identification>
+<NewsIdentifier>
+<ProviderId>afp.com</ProviderId>
+<DateId>20150707T201136Z</DateId>
+<NewsItemId>TX-PAR-NTJ65</NewsItemId>
+<RevisionId PreviousRevision="1" Update="N">2</RevisionId>
+<PublicIdentifier>urn:newsml:afp.com:20150707T201136Z:TX-PAR-NTJ65:2</PublicIdentifier>
+</NewsIdentifier>
+<NameLabel>Colombia-Venezuela-diplomacia-política-límites</NameLabel>
+</Identification>
+<NewsManagement>
+<NewsItemType FormalName="News"/>
+<FirstCreated>20150707T201121+0000</FirstCreated>
+<ThisRevisionCreated>20150707T201121+0000</ThisRevisionCreated>
+<Status FormalName="Usable"/>
+<Urgency FormalName="4"/>
+<AssociatedWith NewsItem="urn:newsml:afp.com:20150707:doc-3d48t:2"/>
+</NewsManagement>
+<NewsComponent>
+<NewsLines>
+<DateLine xml:lang="es">Bogotá, 7 Jul 2015 (AFP) -</DateLine>
+<HeadLine xml:lang="es">Santos celebra solución de "malentendido" limítrofe con Venezuela</HeadLine>
+<NewsLine>
+<NewsLineType FormalName="AdvisoryLine"/>
+<NewsLineText xml:lang="es">agrega declaración de canciller colombiana</NewsLineText>
+</NewsLine>
+</NewsLines>
+<AdministrativeMetadata>
+<Provider>
+<Party FormalName="AFP"/>
+</Provider>
+</AdministrativeMetadata>
+<DescriptiveMetadata>
+<Language FormalName="es"/>
+<Genre FormalName="Lead"/>
+<SubjectCode>
+<SubjectMatter FormalName="11002000" cat="POL"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="11014000" cat="POL"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="11000000" cat="POL"/>
+</SubjectCode>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<DateLineDate>20150707T201121+0000</DateLineDate>
+<Location HowPresent="Origin">
+<Property FormalName="Country" Value="COL"/>
+<Property FormalName="City" Value="Bogota"/>
+</Location>
+<Property FormalName="GeneratorSoftware" Value="libg2"/>
+<Property FormalName="Keyword" Value="Colombia"/>
+<Property FormalName="Keyword" Value="Venezuela"/>
+<Property FormalName="Keyword" Value="diplomacia"/>
+<Property FormalName="Keyword" Value="política"/>
+<Property FormalName="Keyword" Value="límites"/>
+</DescriptiveMetadata>
+<ContentItem>
+<MediaType FormalName="Text"/>
+<Format FormalName="NITF3.1"/>
+<Characteristics>
+<SizeInBytes>2442</SizeInBytes>
+<Property FormalName="Words" Value="407"/>
+</Characteristics>
+<DataContent>
+<nitf>
+<body>
+<body.content>
+<p>El presidente de Colombia, Juan Manuel Santos, celebró este martes la solución "diplomática" del "malentendido" que surgió entre su país y Venezuela, luego de que el gobierno de Nicolás Maduro fijara unilateralmente los límites de un área en disputa en el mar Caribe.</p>
+<p>En una declaración desde la presidencial Casa de Nariño, Santos destacó "las noticias que recibimos anoche de Venezuela en el sentido de que se arregla este malentendido con un decreto que expidieron" sobre la delimitación de aguas en litigio entre los dos países.</p>
+<p>"Lo que nos demuestra es que a través del diálogo, a través de la diplomacia es como se resuelven los problemas. No a través de la confrontación, no a través de los insultos", agregó el jefe de Estado colombiano.</p>
+<p>Maduro anunció la víspera que sustituyó el decreto que apuntaba a ejercer soberanía en aguas en disputa con Colombia y Guyana, el cual había generado el rechazo de ambos países, aunque no reveló el contenido de esa normativa.</p>
+<p>"Yo celebro realmente que esta diferencia, este malentendido quede definido de una vez por todas", precisó Santos. </p>
+<p>Tras el primer decreto, emitido a fines de mayo y que delimitaba cuatro zonas operativas en el mar Caribe para reforzar la defensa venezolana, el gobierno colombiano envió una nota de protesta a Caracas por haber incluido en esas áreas aguas del Golfo de Venezuela -al que Colombia denomina Golfo de Coquivacoa-, afectadas desde hace décadas por un diferendo limítrofe.</p>
+<p>Según anunció Maduro el lunes, el texto definitivo del documento dependerá de un análisis de los tribunales de justicia de Venezuela, a los que remitió el decreto para su evaluación.</p>
+<p>En Colombia, la actuación inicial de Caracas desató críticas hacia el gobierno de Santos, calificado entonces como "suave" o que había tardado demasiado -unos 15 días- en reaccionar públicamente a las pretensiones venezolanas.</p>
+<p>Con su reacción ante el episodio, el gobierno de Santos reforzó en cambio una vez más la política que ha defendido de no acudir a la confrontación para resolver las frecuentes diferencias con el país vecino, con el que comparte una frontera de más de 2.200 kilómetros.</p>
+<p>La canciller colombiana María Ángela Holguín dijo a su vez este martes que a pesar del momento "de dificultad" que generó el decreto de Maduro, éste "abrió la puerta para continuar con la negociación" y hacer que pronto sea convocada una reunión de la comisión negociadora bilateral que desde hace años busca resolver el diferendo limítrofe.</p>
+<p>lda/llu</p>
+</body.content>
+</body>
+</nitf>
+</DataContent>
+</ContentItem>
+</NewsComponent>
+</NewsItem>
+</NewsML>
+

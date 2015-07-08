@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+<!--AFP NewsML text-photo profile evolution2-->
+<!--Processed by Xafp1-4ToNewsML1-2 rev25-->
+<Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+<NewsEnvelope>
+<TransmissionId>2238</TransmissionId>
+<DateAndTime>20150707T202204Z</DateAndTime>
+<NewsService FormalName="DGTE"/>
+<NewsProduct FormalName="SJO"/>
+<NewsProduct FormalName="HAV"/>
+<NewsProduct FormalName="MEX"/>
+<NewsProduct FormalName="SCL"/>
+<NewsProduct FormalName="BOG"/>
+<NewsProduct FormalName="RIO"/>
+<NewsProduct FormalName="CCS"/>
+<NewsProduct FormalName="MAS"/>
+<NewsProduct FormalName="BUE"/>
+<NewsProduct FormalName="LIM"/>
+<NewsProduct FormalName="DGTE"/>
+<NewsProduct FormalName="DVBP"/>
+<NewsProduct FormalName="DAGI"/>
+<NewsProduct FormalName="DVBA"/>
+<NewsProduct FormalName="DILI"/>
+<Priority FormalName="4"/>
+</NewsEnvelope>
+<NewsItem xml:lang="es">
+<Identification>
+<NewsIdentifier>
+<ProviderId>afp.com</ProviderId>
+<DateId>20150707T202157Z</DateId>
+<NewsItemId>TX-PAR-NTJ94</NewsItemId>
+<RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+<PublicIdentifier>urn:newsml:afp.com:20150707T202157Z:TX-PAR-NTJ94:1</PublicIdentifier>
+</NewsIdentifier>
+<NameLabel>Juegos-Panamericanos-Toronto-2015-CAN</NameLabel>
+</Identification>
+<NewsManagement>
+<NewsItemType FormalName="News"/>
+<FirstCreated>20150707T202148+0000</FirstCreated>
+<ThisRevisionCreated>20150707T202148+0000</ThisRevisionCreated>
+<Status FormalName="Usable"/>
+<Urgency FormalName="4"/>
+<AssociatedWith FormalName="PHOTOARCH"/>
+</NewsManagement>
+<NewsComponent>
+<NewsLines>
+<DateLine xml:lang="es">TORONTO, Canadá, 7 Jul 2015 (AFP) -</DateLine>
+<HeadLine xml:lang="es">Los Juegos Panamericanos, cuna de grandes estrellas mundiales</HeadLine>
+<NewsLine>
+<NewsLineType FormalName="ProductLine"/>
+<NewsLineText xml:lang="es">(Fotos archivo)</NewsLineText>
+</NewsLine>
+</NewsLines>
+<AdministrativeMetadata>
+<Provider>
+<Party FormalName="AFP"/>
+</Provider>
+<Creator>
+<Party FormalName="Pablo de Jesús "/>
+</Creator>
+</AdministrativeMetadata>
+<DescriptiveMetadata>
+<Language FormalName="es"/>
+<Genre FormalName="Insight"/>
+<SubjectCode>
+<Subject FormalName="15000000" cat="SPO"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="15073000" cat="SPO"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="15073000" cat="SPO"/>
+</SubjectCode>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<DateLineDate>20150707T202148+0000</DateLineDate>
+<Location HowPresent="Origin">
+<Property FormalName="Country" Value="CAN"/>
+<Property FormalName="City" Value="TORONTO"/>
+</Location>
+<Property FormalName="GeneratorSoftware" Value="Cafp32"/>
+<Property FormalName="Keyword" Value="Juegos"/>
+<Property FormalName="Keyword" Value="Panamericanos"/>
+<Property FormalName="Keyword" Value="Toronto"/>
+<Property FormalName="Keyword" Value="2015"/>
+<Property FormalName="Keyword" Value="CAN"/>
+</DescriptiveMetadata>
+<ContentItem>
+<MediaType FormalName="Text"/>
+<Format FormalName="NITF3.1"/>
+<Characteristics>
+<SizeInBytes>4542</SizeInBytes>
+<Property FormalName="Words" Value="757"/>
+</Characteristics>
+<DataContent>
+<nitf>
+<body>
+<body.content>
+<p>De Michael Jordan a Joao Carlo de Oliveira, pasando por Carl Lewis a Javier Sotomayor, los Juegos Panamericanos han servido de lanzadera a grandes estrellas del deporte mundial.</p>
+<p>Tal fue el caso de Jordan, un desconocido larguilucho de 19 años, estrellita máxima de la Universidad de Carolina del Norte, que en los Juegos de Caracas-1983 impresionó por sus habilidades técnicas para terminar como líder anotador del torneo de baloncesto, guiando a la selección norteña al título.</p>
+<p>Veinte años después, el 'Air Jordan' se retiró con dos medallas olímpicas (Los Angeles-1984 y Barcelona-1992), seis anillos de campeón NBA con los Chicago Bulls y la distinción de ser considerado el mejor jugador de básquet de todos los tiempos.</p>
+<p>El brasileño Joao Carlos de Oliveira llegó a sus primeros Juegos Panamericanos en Ciudad de México 1975 siendo ya una estrella mundial, y con un brinco histórico de 17,89 m implantó un récord mundial que estuvo vigente 10 años, hasta que el estadounidense Willie Banks se lo rompió con 17,97 m.</p>
+<p>En esta cita ganó además el salto de longitud, y cuatro años después en San Juan 1979 en Puerto Rico, se convirtió en campeón tanto en el triple salto y salto de longitud. En este último, derrotó nada menos que el futuro campeón olímpico del evento, Carl Lewis.4</p>
+<p>El 22 de diciembre de 1981, un brutal accidente automovilístico le tronchó la carrera, al terer que amputársele su pierna derecha. Falleció en 1999 debido a la cirrosis hepática e infección generalizada.</p>
+<p> </p>
+<hl2>- El Hijo del Viento y el Príncipe de las Alturas -</hl2>
+<p> </p>
+<p>En su primera experiencia panamericana, en Puerto Rico, Carl Lewis, de 18 años, se fue con bronce en el salto largo.</p>
+<p>En 1987, convertido en estrella, el 'Hijo del Viento' accedió a competir en Indianápolis, pero sólo en el salto de longitud, donde en tres brincos dejó establecido el actual récord del evento, 8.75 metros.</p>
+<p>Javier Sotomayor es considerado el mejor de la historia en salto de altura. Bautizado como el Príncipe de las Alturas, luego de recibir en 1993 el Premio Príncipe de Asturias de los Deportes, ostenta los récords mundiales tanto al aire libre como en pista cubierta.</p>
+<p>Logró un título olímpico (Barcelona 1992) y una plata (Sydney 2000), dos campeonatos mundiales al aire libre y cuatro en pista cubierta, y tres títulos panamericanos (Indianápolis 1987, La Habana 1991 y Mar del Plata 1995).</p>
+<p>Su marca de 2.45 m conseguida el 27 de julio de 1993 en Salamanca (ESpaña), permanece aún como un récord de otra galaxia. Sólo el catarí Mutaz Essa Barshim se le ha logrado acercar con un 2.43 el pasado año</p>
+<p> </p>
+<hl2>- Otras estrellas -</hl2>
+<p> </p>
+<p>En el caos organizativo que fueron los Juegos de San Juan (Puerto Rico) 1979, nació la estrella del clavadista Greg Louganis, que dominó en trampolín y plataforma, para echar a correr su fama del mejor de todos los tiempos en saltos ornamentales.</p>
+<p>A los 16 años, Louganis ganó medalla de plata en los Juegos Olímpicos de Montreal 1976. Tres años después, venció en Puerto Rico a su gran rival, el mexicano Carlos Girón, en un duelo épico qe fue objeto de una película.</p>
+<p>Caracas-1983 marcó una raya entre el pasado y el futuro de los Juegos Panamericanos. Por primera vez se aplicaron controles antidopajes más rigurosos, lo que provocó la estampida en masa de numerosos atletas, 12 de ellos del equipo de atletismo de Estados Unidos por "motivos personales".</p>
+<p>En la delegación estadounidense de esos Juegos destacaron Michael Jordan y Chris Mullin, futuros miembros del Salón de la Fama de la NBA, y los boxeadores Evander Holyfield y Riddick Bowe, ambos campeones mundiales de peso completo años más tarde.</p>
+<p>En la pileta de Caracas, de nuevo sobresalió la maestría de Greg Louganis en clavados. Todavía ganaría un oro más en Indianápolis 1987.</p>
+<p>Los Juegos de Indianápolis-1987 quedaron maarcados por la dolorosa derrota en del equipo de Estados Unidos de baloncesto masculino.</p>
+<p>Brasil borró una desventaja de 22 puntos en la segunda mitad, y con 53 puntos de su leyenda Oscar Schmidt, y 45 de Marcel de Souza, se llevó el oro al ganar la final 120 a 115, frente a un equipo norteamericano con dos futuros NBA como Dave Robinson y Danny Manning.</p>
+<p>En atletismo, la legendario Jackie Joyner-Kersee igualó el record mundial de salto largo femenino, una cota más en una carrera que incluyó seis medallas olímpicas, tres de ellas de oro entre 1984 y 1996. Su récord del mundo de heptatlón con 7.291 puntos se mantiene vigente desde 1988.</p>
+<p>psl/ol</p>
+<p> </p>
+<p> </p>
+</body.content>
+</body>
+</nitf>
+</DataContent>
+</ContentItem>
+</NewsComponent>
+</NewsItem>
+</NewsML>
+

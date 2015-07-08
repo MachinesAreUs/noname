@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+<!--AFP NewsML text-photo profile evolution2-->
+<!--Processed by Xafp1-4ToNewsML1-2 rev25-->
+<Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+<NewsEnvelope>
+<TransmissionId>2227</TransmissionId>
+<DateAndTime>20150707T201232Z</DateAndTime>
+<NewsService FormalName="DGTE"/>
+<NewsProduct FormalName="SJO"/>
+<NewsProduct FormalName="HAV"/>
+<NewsProduct FormalName="MEX"/>
+<NewsProduct FormalName="SCL"/>
+<NewsProduct FormalName="BOG"/>
+<NewsProduct FormalName="RIO"/>
+<NewsProduct FormalName="CCS"/>
+<NewsProduct FormalName="MAS"/>
+<NewsProduct FormalName="BUE"/>
+<NewsProduct FormalName="LIM"/>
+<NewsProduct FormalName="DGTE"/>
+<NewsProduct FormalName="DVBP"/>
+<NewsProduct FormalName="DAGI"/>
+<NewsProduct FormalName="DVBA"/>
+<NewsProduct FormalName="DILI"/>
+<Priority FormalName="4"/>
+</NewsEnvelope>
+<NewsItem xml:lang="es">
+<Identification>
+<NewsIdentifier>
+<ProviderId>afp.com</ProviderId>
+<DateId>20150707T201224Z</DateId>
+<NewsItemId>TX-PAR-NTJ67</NewsItemId>
+<RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+<PublicIdentifier>urn:newsml:afp.com:20150707T201224Z:TX-PAR-NTJ67:1</PublicIdentifier>
+</NewsIdentifier>
+<NameLabel>Argentina-muerte-justicia-salud</NameLabel>
+</Identification>
+<NewsManagement>
+<NewsItemType FormalName="News"/>
+<FirstCreated>20150707T201211+0000</FirstCreated>
+<ThisRevisionCreated>20150707T201211+0000</ThisRevisionCreated>
+<Status FormalName="Usable"/>
+<Urgency FormalName="4"/>
+<AssociatedWith NewsItem="urn:newsml:afp.com:20150707:doc-3d58u:1"/>
+</NewsManagement>
+<NewsComponent>
+<NewsLines>
+<DateLine xml:lang="es">Buenos Aires, 7 Jul 2015 (AFP) -</DateLine>
+<HeadLine xml:lang="es">Corte argentina respalda derecho a muerte digna pero sin avalar eutanasia</HeadLine>
+<NewsLine>
+<NewsLineType FormalName="AdvisoryLine"/>
+<NewsLineText xml:lang="es">Atención precisa año del accidente, bien 1994</NewsLineText>
+</NewsLine>
+</NewsLines>
+<AdministrativeMetadata>
+<Provider>
+<Party FormalName="AFP"/>
+</Provider>
+</AdministrativeMetadata>
+<DescriptiveMetadata>
+<Language FormalName="es"/>
+<Genre FormalName="Article"/>
+<SubjectCode>
+<SubjectMatter FormalName="14023000" cat="SOI"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="02007000" cat="CLJ"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="07000000" cat="HTH"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="02000000" cat="CLJ"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="14000000" cat="SOI"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="14000000" cat="SOI"/>
+</SubjectCode>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<DateLineDate>20150707T201211+0000</DateLineDate>
+<Location HowPresent="Origin">
+<Property FormalName="Country" Value="ARG"/>
+<Property FormalName="City" Value="Buenos Aires"/>
+</Location>
+<Property FormalName="GeneratorSoftware" Value="libg2"/>
+<Property FormalName="Keyword" Value="Argentina"/>
+<Property FormalName="Keyword" Value="muerte"/>
+<Property FormalName="Keyword" Value="justicia"/>
+<Property FormalName="Keyword" Value="salud"/>
+</DescriptiveMetadata>
+<ContentItem>
+<MediaType FormalName="Text"/>
+<Format FormalName="NITF3.1"/>
+<Characteristics>
+<SizeInBytes>4536</SizeInBytes>
+<Property FormalName="Words" Value="756"/>
+</Characteristics>
+<DataContent>
+<nitf>
+<body>
+<body.content>
+<p>La Corte Suprema Argentina avaló este martes que los familiares de un paciente desahuciado puedan solicitar su muerte digna invocando su voluntad, en un fallo que aclara que no se trata de eutanasia, aún ilegal en el país sudamericano.</p>
+<p>El alto tribunal sostuvo que los familiares pueden "dar testimonio de la voluntad del paciente respecto de los tratamientos médicos que éste quiere o no recibir" para asegurar su derecho, contemplado por ley, de acceder a una muerte digna.</p>
+<p>La Corte aclaró que no se trata un caso de eutanasia porque "la solicitud de cese de soporte vital no importa una práctica eutanásica vedada por la ley sino que constituye una abstención terapéutica que si se encuentra permitida".</p>
+<p>Por lo tanto, con el fallo se autoriza a cesar la hidratación y alimentación que permiten prolongar la vida del enfermo de forma artificial, pero sin permitir ninguna acción médica que provoque deliberadamente su muerte, tal como define la eutanasia la Organización Mundial de la Salud (OMS).</p>
+<p>La Corte Suprema indicó que la decisión respecto de la continuidad del tratamiento "no puede ni debe responder a meros sentimientos de compasión hacia el enfermo".</p>
+<p>Tampoco considera que la decisión de morir deba basarse en el juicio de terceros, ni siquiera del círculo familiar íntimo del paciente, sino solamente que se invoque la voluntad expresada verbalmente por el enfermo.</p>
+<p>Es la primera vez que la Corte se expresa en este sentido y reafirma que en caso de que esa voluntad no haya sido expresada por anticipado en un documento legal, es válido el mero testimonio de la familia sobre los deseos del paciente, bajo declaración jurada.</p>
+<p>En Argentina la ley de Derechos del Paciente, aprobada en mayo de 2012, establece el derecho de las personas a disponer mediante poder legal órdenes anticipadas sobre su salud en casos irreversibles.</p>
+<p>Holanda, Bélgica, Luxemburgo, Suiza, Gran Bretaña, Italia, Alemania, Noruega, Suecia, Hungría y República Checa figuran entre los países que permiten la muerte digna. En España solo lo permiten tres provincias y en Uruguay rige desde 2013 "la ley del buen morir" que contempla el rechazo a tratamientos médicos para prolongar la vida, similar a la argentina.</p>
+<p> </p>
+<hl2>- El caso -</hl2>
+<p> </p>
+<p>El fallo respondió al caso de Marcelo Diez, postrado desde octubre de 1994 cuando a los 30 años se accidentó con su motocicleta en la provincia de Neuquén (sur del país) y quedó en estado vegetativo irreversible.</p>
+<p>Nueve años después del accidente y con la ley de Derechos del Paciente aprobada, sus hermanas solicitaron el derecho a la muerte digna del paciente, que no tiene comunicación alguna con su entorno, no responde a estímulos y recibe alimentación por sonda.</p>
+<p>Un tribunal provincial apoyó la petición de las hermanas de Marcelo Diez en 2013 pero el Ministerio Público de Incapaces consideró que carecían de sustento legal y por lo tanto estaban ante una decisión arbitraria.</p>
+<p>En el laberinto judicial, la iglesia Católica, culto mayoritario en el país de nacimiento del papa Francisco, también se involucró en la polémica aduciendo que desconectar a un paciente en estado vegetativo permanente era "eutanasia por omisión y un delito por abandono de persona".</p>
+<p> </p>
+<hl2>- Derecho a la autonomía -</hl2>
+<p> </p>
+<p>La Corte entendió en su fallo de este martes que una persona "puede en determinadas circunstancias adoptar decisiones que tengan como fin previsible la culminación de su vida, en tanto se trata de cuestiones que se encuentran dentro de la zona de reserva que asegura el derecho a la autonomía personal".</p>
+<p>En este sentido el alto tribunal remarcó que "el individuo es dueño de hacer elecciones sobre su propia vida sin intromisión del Estado en tanto no afecten la moral, el orden público ni a terceros".</p>
+<p>Según justificó, estas "decisiones libres hacen a la dignidad de la persona y al pleno ejercicio de la libertad".</p>
+<p>El abogado de las hermanas de Diez, Lucas Pica, afirmó que "la Corte lo que dijo hoy con este fallo es que existe una ley, que salió por unanimidad en el Senado y abrumadora mayoría en Diputados, que se aplique y que por favor no se judicialice más esta situación".</p>
+<p>El abogado consideró que fueron "los sectores conservadores los que obligaron a la familia a recurrir a este largo y tedioso derrotero judicial para conseguir ni más ni menos que se aplique la ley".</p>
+<p>"El no pudo emitir una voluntad (por escrito) porque lo encontró un accidente de tránsito, en este caso el consentimiento lo dan los familiares más cercanos que pudieron conocer su voluntad", explicó el abogado.</p>
+<p>sa/pb/cd</p>
+<p> </p>
+</body.content>
+</body>
+</nitf>
+</DataContent>
+</ContentItem>
+</NewsComponent>
+</NewsItem>
+</NewsML>
+

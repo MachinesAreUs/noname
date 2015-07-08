@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+<!--AFP NewsML text-photo profile evolution2-->
+<!--Processed by Xafp1-4ToNewsML1-2 rev25-->
+<Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+<NewsEnvelope>
+<TransmissionId>2236</TransmissionId>
+<DateAndTime>20150707T201859Z</DateAndTime>
+<NewsService FormalName="DGTE"/>
+<NewsProduct FormalName="SJO"/>
+<NewsProduct FormalName="HAV"/>
+<NewsProduct FormalName="MEX"/>
+<NewsProduct FormalName="SCL"/>
+<NewsProduct FormalName="BOG"/>
+<NewsProduct FormalName="RIO"/>
+<NewsProduct FormalName="CCS"/>
+<NewsProduct FormalName="MAS"/>
+<NewsProduct FormalName="BUE"/>
+<NewsProduct FormalName="LIM"/>
+<NewsProduct FormalName="DGTE"/>
+<NewsProduct FormalName="DVBP"/>
+<NewsProduct FormalName="DAGI"/>
+<NewsProduct FormalName="DVBA"/>
+<NewsProduct FormalName="DILI"/>
+<Priority FormalName="4"/>
+</NewsEnvelope>
+<NewsItem xml:lang="es">
+<Identification>
+<NewsIdentifier>
+<ProviderId>afp.com</ProviderId>
+<DateId>20150707T201854Z</DateId>
+<NewsItemId>TX-PAR-NTJ88</NewsItemId>
+<RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+<PublicIdentifier>urn:newsml:afp.com:20150707T201854Z:TX-PAR-NTJ88:1</PublicIdentifier>
+</NewsIdentifier>
+<NameLabel>EEUU-agricultura-materias-primas</NameLabel>
+</Identification>
+<NewsManagement>
+<NewsItemType FormalName="News"/>
+<FirstCreated>20150707T201847+0000</FirstCreated>
+<ThisRevisionCreated>20150707T201847+0000</ThisRevisionCreated>
+<Status FormalName="Usable"/>
+<Urgency FormalName="4"/>
+<AssociatedWith NewsItem="urn:newsml:afp.com:20150707:doc-3d52r:1"/>
+</NewsManagement>
+<NewsComponent>
+<NewsLines>
+<DateLine xml:lang="es">Chicago, 7 Jul 2015 (AFP) -</DateLine>
+<HeadLine xml:lang="es">El mal tiempo no afectó tanto los cultivos y precios bajan en mercado de Chicago</HeadLine>
+</NewsLines>
+<AdministrativeMetadata>
+<Provider>
+<Party FormalName="AFP"/>
+</Provider>
+</AdministrativeMetadata>
+<DescriptiveMetadata>
+<Language FormalName="es"/>
+<Genre FormalName="LeadGeneral"/>
+<SubjectCode>
+<SubjectDetail FormalName="04009004" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="04001000" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="04000000" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="04000000" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectDetail FormalName="04008024" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<SubjectMatter FormalName="04009000" cat="ECO"/>
+</SubjectCode>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<DateLineDate>20150707T201847+0000</DateLineDate>
+<Location HowPresent="Origin">
+<Property FormalName="Country" Value="USA"/>
+<Property FormalName="Area" Value=""/>
+<Property FormalName="City" Value="Chicago"/>
+</Location>
+<Property FormalName="GeneratorSoftware" Value="libg2"/>
+<Property FormalName="Keyword" Value="EEUU"/>
+<Property FormalName="Keyword" Value="agricultura"/>
+<Property FormalName="Keyword" Value="materias-primas"/>
+</DescriptiveMetadata>
+<ContentItem>
+<MediaType FormalName="Text"/>
+<Format FormalName="NITF3.1"/>
+<Characteristics>
+<SizeInBytes>2634</SizeInBytes>
+<Property FormalName="Words" Value="439"/>
+</Characteristics>
+<DataContent>
+<nitf>
+<body>
+<body.content>
+<p>Los precios de la soja, el maíz y el trigo volvieron a bajar el martes en Chicago, luego que un informe del departamento de Agricultura (USDA) diera pie a la toma de beneficios al revelar que los cultivos no sufrieron tanto por el mal tiempo.</p>
+<p>La soja, cuyo precio había subido fuertemente en las últimas dos semanas, fue el que más sufrió el martes, luego que, contrariamente a lo previsto, el informe del USDA revelara que no sufrió ningún daño pese al mal tiempo de mayo y junio.</p>
+<p>Además se confirma el regreso del buen tiempo, lo que hace esperar buenos rendimientos y deprime las cotizaciones, recordó Jack Scoville, de Price Futures Group.</p>
+<p>"Es posible que la soja y los productos a base de soja hayan alcanzado su precio máximo de la temporada la semana pasada", indicó en su análisis diario.</p>
+<p>El informe del USDA también sorprendió en el caso del maíz, al informar sobre una mejora del estado de los cultivos, cuando se esperaba una degradación de los mismos.</p>
+<p>La baja de las cotizaciones arrastró al trigo, pese a una caída de la calidad de los cultivos en Estados Unidos y la sequía en Francia y Europa.</p>
+<p>En Australia, que sufre la sequía por el fenómeno climático de El Niño, la cosecha podría ser menor a lo esperado pero Scoville estimó de todas formas que en el caso del trigo también podrían haberse alcanzado ya los precios más altos de la temporada "pese a que el mercado sigue atento al clima y podría volver a presionar al alza si el tiempo no mejora".</p>
+<p>Sobre todo, según Dewey Strickler, de Ag Watch Market Advisors, "el trigo baja principalmente debido al fortalecimiento del dólar" frente al euro. El euro valía 1,0978 dólares a las 19h00 GMT, contra 1,1057 el lunes a las 21h00 GMT.</p>
+<p>Para Strickler, de todas formas, todavía no se puede anunciar que terminó la tradicional alza veraniega de los precios y ay que esperar dos informes gubernamentales previstos para el viernes.</p>
+<p>El USDA debe entonces publicar su informe mensual sobre las cosechas, siembras y rendimientos, así como sus estimaciones mensuales sobre la oferta y la demanda mundiales de productos agrícolas.</p>
+<p>El bushel de maíz (unos 25 kg) para entrega en diciembre, el contrato más activo, valía 4,3300 dólares al cierre, contra 4,3500 dólares el lunes.</p>
+<p>El bushel de trigo para setiembre, el más intercambiado, cotizava a 5,8525 dólares contra 5,9550 el día anterior.</p>
+<p>El busehl de soja para novembre, el más activo, cayó por debajo de los 10 dólares que había alcanzado el 30 de junio y cerró a 9,8575 dólares, contra 10,1475 el lunes.</p>
+<p>chr/jld/aic/cd</p>
+<p> </p>
+</body.content>
+</body>
+</nitf>
+</DataContent>
+</ContentItem>
+</NewsComponent>
+</NewsItem>
+</NewsML>
+

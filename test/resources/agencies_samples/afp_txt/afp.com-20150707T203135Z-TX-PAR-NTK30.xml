@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+<!--AFP NewsML text-photo profile evolution2-->
+<!--Processed by Xafp1-4ToNewsML1-2 rev25-->
+<Catalog Href="http://www.afp.com/dtd/AFPCatalog.xml"/>
+<NewsEnvelope>
+<TransmissionId>2253</TransmissionId>
+<DateAndTime>20150707T203138Z</DateAndTime>
+<NewsService FormalName="DGTE"/>
+<NewsProduct FormalName="SJO"/>
+<NewsProduct FormalName="HAV"/>
+<NewsProduct FormalName="MEX"/>
+<NewsProduct FormalName="SCL"/>
+<NewsProduct FormalName="BOG"/>
+<NewsProduct FormalName="RIO"/>
+<NewsProduct FormalName="CCS"/>
+<NewsProduct FormalName="MAS"/>
+<NewsProduct FormalName="BUE"/>
+<NewsProduct FormalName="LIM"/>
+<NewsProduct FormalName="DGTE"/>
+<NewsProduct FormalName="DVBP"/>
+<NewsProduct FormalName="DAGI"/>
+<NewsProduct FormalName="DVBA"/>
+<NewsProduct FormalName="DILI"/>
+<Priority FormalName="4"/>
+</NewsEnvelope>
+<NewsItem xml:lang="es">
+<Identification>
+<NewsIdentifier>
+<ProviderId>afp.com</ProviderId>
+<DateId>20150707T203135Z</DateId>
+<NewsItemId>TX-PAR-NTK30</NewsItemId>
+<RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+<PublicIdentifier>urn:newsml:afp.com:20150707T203135Z:TX-PAR-NTK30:1</PublicIdentifier>
+</NewsIdentifier>
+<NameLabel>Brasil-real-divisas-cierre-mercados</NameLabel>
+</Identification>
+<NewsManagement>
+<NewsItemType FormalName="News"/>
+<FirstCreated>20150707T203125+0000</FirstCreated>
+<ThisRevisionCreated>20150707T203125+0000</ThisRevisionCreated>
+<Status FormalName="Usable"/>
+<Urgency FormalName="4"/>
+<AssociatedWith NewsItem="urn:newsml:afp.com:20150707:doc-3d5d1:1"/>
+</NewsManagement>
+<NewsComponent>
+<NewsLines>
+<DateLine xml:lang="es">Sao Paulo, 7 Jul 2015 (AFP) -</DateLine>
+<HeadLine xml:lang="es">Real cayó 1,26% a 3,18 por dólar</HeadLine>
+</NewsLines>
+<AdministrativeMetadata>
+<Provider>
+<Party FormalName="AFP"/>
+</Provider>
+</AdministrativeMetadata>
+<DescriptiveMetadata>
+<Language FormalName="es"/>
+<SubjectCode>
+<SubjectMatter FormalName="04009000" cat="ECO"/>
+</SubjectCode>
+<SubjectCode>
+<Subject FormalName="04000000" cat="ECO"/>
+</SubjectCode>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<OfInterestTo FormalName="LAW-TSG-1=LAW"/>
+<DateLineDate>20150707T203125+0000</DateLineDate>
+<Location HowPresent="Origin">
+<Property FormalName="Country" Value="BRA"/>
+<Property FormalName="City" Value="Sao Paulo"/>
+</Location>
+<Property FormalName="GeneratorSoftware" Value="libg2"/>
+<Property FormalName="Keyword" Value="Brasil"/>
+<Property FormalName="Keyword" Value="real"/>
+<Property FormalName="Keyword" Value="divisas"/>
+<Property FormalName="Keyword" Value="cierre"/>
+<Property FormalName="Keyword" Value="mercados"/>
+</DescriptiveMetadata>
+<ContentItem>
+<MediaType FormalName="Text"/>
+<Format FormalName="NITF3.1"/>
+<Characteristics>
+<SizeInBytes>426</SizeInBytes>
+<Property FormalName="Words" Value="71"/>
+</Characteristics>
+<DataContent>
+<nitf>
+<body>
+<body.content>
+<p>El real cerró este martes con una caída de 1,26% respecto al lunes cotizado en 3,18 unidades por dólar, informó la consultora de mercado CMA en Sao Paulo. </p>
+<p>La moneda brasileña había cerrado el lunes sin variaciones respecto al viernes en 3,14 unidades por billete verde.</p>
+<p>En el año, la divisa brasileña acumula una pérdida ante el dólar de 16,3%, mientras que en 2014 registró una caída del 13%.</p>
+<p>nr/aic</p>
+<p> </p>
+</body.content>
+</body>
+</nitf>
+</DataContent>
+</ContentItem>
+</NewsComponent>
+</NewsItem>
+</NewsML>
+

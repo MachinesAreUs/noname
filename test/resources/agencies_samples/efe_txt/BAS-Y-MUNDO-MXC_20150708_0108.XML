@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+  <!--NewsML documentation and last changes: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm.
+Documentacion NewsML y últimos cambios: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm-->
+  <NewsEnvelope>
+    <SentFrom>
+      <Party FormalName="EFE">
+        <Property FormalName="Organization" Value="Agencia EFE" />
+      </Party>
+    </SentFrom>
+    <DateAndTime>20150707T230837+0000</DateAndTime>
+    <NewsProduct FormalName="Servicio Internacional para México" />
+  </NewsEnvelope>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919889">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T230700+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919889</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T230700+0000:20919889:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T230700+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T230700+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="4" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919889.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Clinton defiende su honestidad en su primera entrevista como precandidata</HeadLine>
+        <SubHeadLine>EEUU ELECCIONES CLINTON (Previsión)</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="cg/hma/arm" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="USA" />
+        </Location>
+        <SubjectCode>
+          <!--Política ; Elecciones-->
+          <SubjectMatter FormalName="11003000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="POL:POLITICA,ELECCIONES" />
+        <Property FormalName="EfePais" Value="USA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="Previsión" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Clinton defiende su honestidad en su primera entrevista como precandidata</title>
+              <meta name="prioridad" content="U" />
+              <meta name="categoria" content="POL" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="Previsión" />
+              <tobject tobject.type="News">
+                <!--Política;Elecciones-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11003000" tobject.subject.type="Política" tobject.subject.matter="Elecciones" />
+                <!--POL:POLITICA;ELECCIONES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01007000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="ELECCIONES" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Washington" iso-cc="USA" />
+                <doc-id id-string="20919889" />
+                <urgency ed-urg="3" />
+                <date.issue norm="20150707T230700+0000" />
+                <key-list>
+                  <keyword key="EEUU ELECCIONES CLINTON (Previsión)" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T230700+0000" edition.area="BGM INF MUN BDA RDO COL MXC" item-length="00818" unit-of-measure="word" id="CL2212" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Clinton defiende su honestidad en su primera entrevista como precandidata</hl1>
+                  <hl2>EEUU ELECCIONES CLINTON (Previsión)</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>cg/hma/arm</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T230700+0000">20150707T230700+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Hillary Clinton, favorita para las primarias demócratas de 2016, defendió hoy su honestidad en su primera entrevista nacional en tres meses de campaña, tras la polémica de las donaciones a la Fundación Clinton y el escándalo por el uso de un correo electrónico privado como secretaria de Estado.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>Cristina García Casado</p>
+                <p>Washington, 7 jul (EFE).- Hillary Clinton, favorita para las primarias demócratas de 2016, defendió hoy su honestidad en su primera entrevista nacional en tres meses de campaña, tras la polémica de las donaciones a la Fundación Clinton y el escándalo por el uso de un correo electrónico privado como secretaria de Estado.</p>
+                <p>"La gente debería confiar en mí, yo no puedo decidir cómo serán los ataques infundados de la derecha, pero haremos lo mejor para responder. Confío al cien por cien en que el votante sabrá ver que esas acusaciones no tienen base ni pruebas", dijo hoy en una entrevista con CNN.</p>
+                <p>La de hoy fue la primera de una serie de entrevistas con grandes medios que concederá Clinton cuando lleva tres meses de campaña a escala local, en la que su equipo ha evitado al máximo su exposición a la prensa.</p>
+                <p>Esta estrategia difiere de la actitud más abierta del resto de aspirantes presidenciales, tanto republicanos como demócratas, y ha suscitado numerosas críticas, especialmente desde los medios de comunicación.</p>
+                <p>Las encuestas apuntan a que uno de los talones de Aquiles de Hillary Clinton es que la mayoría de los ciudadanos cree que no es transparente, honesta ni confiable, una imagen reforzada por la polémica sobre las donaciones extranjeras a la Fundación Clinton y el escándalo por el uso de una cuenta de correo privado cuando era secretaria de Estado (2009-2013).</p>
+                <p>Clinton reconoció hoy que las controversias que la rodean hacen que los ciudadanos "se planteen preguntas" pero aseguró que, en lo que va de campaña, las cuestiones que le han presentado son sobre sus planes en economía, educación o salud.</p>
+                <p>"Confían en que tengo un plan y deberían, porque lo tengo", sentenció.</p>
+                <p>Preguntada por la primera de las crisis que tuvo que enfrentar cuando aún no era candidata oficial, la de las donaciones extranjeras a la Fundación Clinton, se limitó a defender la labor de la entidad y evitó entrar en más detalles.</p>
+                <p> "No tengo planes de decir o hacer nada sobre la Fundación Clinton más allá de afirmar lo orgullosa que estoy de ella", señaló.</p>
+                <p>Tras oficializar su campaña en abril, Hillary Clinton renunció a su puesto en la junta directiva de la fundación familiar para centrarse en su carrera presidencial y tras la controversia por posibles conflictos de interés.</p>
+                <p>Sobre el otro escándalo que le afecta, el del uso de un correo electrónico privado cuando era secretaria de Estado (2009-2013), Hillary repitió hoy en más de cinco ocasiones que ella no hizo nada fuera de la ley ni nada que no hubieran hecho ya algunos de sus predecesores.</p>
+                <p>"Vamos a respirar profundamente en este punto, todo lo que hice estaba permitido por la ley y, es más, elegí entregar documentación que no tenía obligación de presentar", defendió ante la insistencia sobre ese tema de la periodista Brianna Keilar.</p>
+                <p>Preguntada por la polémica que rodea al magnate Donald Trump, Clinton, que es su amiga, dijo estar "muy decepcionada" con él por sus comentarios ofensivos sobre los inmigrantes mexicanos y también con el resto de aspirantes republicanos por no haber reaccionado con más rapidez.</p>
+                <p>"Estoy muy decepcionada, me siento muy mal y decepcionada con él, y con el Partido Republicano por no responder inmediatamente a sus comentarios", afirmó.</p>
+                <p>Trump, precandidato por el Partido Republicano, ha generado una ola de críticas por abrir su campaña el 16 de junio con estos comentarios: "México está enviado a este país a gente con un montón de problemas (...). Están trayendo drogas, el crimen, a los violadores. Asumo que algunos son buenos", dijo.</p>
+                <p>En la entrevista, Clinton se esforzó por presentarse como la candidata que defiende una reforma migratoria que incluya una vía para la ciudadanía frente a sus oponentes republicanos, a los que situó "en un espectro que va de la bienvenida a regañadientes a la hostilidad" con los inmigrantes.</p>
+                <p>Preguntada por si Jeb Bush, favorito para las primarias republicanas, tiene una postura más moderada en política migratoria, Clinton fue tajante al asegurar que él "no apoya una vía para la ciudadanía" y subrayó que "si un día la apoyó, ya no".</p>
+                <p>Los analistas atribuyen la reaparición de Clinton en la televisión nacional a la presión por los buenos resultados de su competidor y senador por Vermont Bernie Sanders en las encuestas de estados clave como Iowa.</p>
+                <p>Un reciente sondeo de la Universidad Quinnipiac (Connecticut) indica que Clinton tiene el 52 % de apoyos y Sanders el 33 % en ese estado cargado de simbolismo, pues es el primero que vota y con su "caucus" comienza oficialmente el proceso electoral.</p>
+                <p>"Siempre pensé que esto tenía que ser competitivo y estoy feliz de donde estamos en Iowa. Si algo aprendí de entonces -cuando fue derrotada en las primarias de 2008 por Barack Obama en ese estado- es que hay que organizar, organizar y organizar, tener a la gente comprometida", dijo hoy la demócrata en la entrevista. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919888">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T230700+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919888</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T230700+0000:20919888:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T230700+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T230700+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919888.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>El callejón de Tabaqueros es disputado por comerciantes formales y ambulantes</HeadLine>
+        <SubHeadLine>MÉXICO COMERCIO</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="(vídeo)" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="MEX" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Comercio-->
+          <SubjectMatter FormalName="04007000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MACROECONOMIA,COMERCIO-INVERSIONES" />
+        <Property FormalName="EfePais" Value="MEX" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>El callejón de Tabaqueros es disputado por comerciantes formales y ambulantes</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Comercio-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04007000" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Comercio" />
+                <!--ECO:ECONOMIA;MACROECONOMIA;COMERCIO-INVERSIONES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06001001" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MACROECONOMIA" tobject.subject.detail="COMERCIO-INVERSIONES" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="México" iso-cc="MEX" />
+                <doc-id id-string="20919888" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T230700+0000" />
+                <key-list>
+                  <keyword key="MÉXICO COMERCIO" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T230700+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR" item-length="00689" unit-of-measure="word" id="CL2211" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>El callejón de Tabaqueros es disputado por comerciantes formales y ambulantes</hl1>
+                  <hl2>MÉXICO COMERCIO</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>(vídeo)</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T230700+0000">20150707T230700+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Es difícil transitar por el callejón de Tabaqueros, un pasaje situado a pocos metros del Zócalo de Ciudad de México, donde se concentran tiendas de manualidades y recuerdos para eventos especiales, pero las aglomeraciones se han convertido en un problema para sus dueños que señalan a los vendedores ambulantes como responsables.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>México, 7 jul (EFE).- Es difícil transitar por el callejón de Tabaqueros, un pasaje situado a pocos metros del Zócalo de Ciudad de México, donde se concentran tiendas de manualidades y recuerdos para eventos especiales, pero las aglomeraciones se han convertido en un problema para sus dueños que señalan a los vendedores ambulantes como responsables.</p>
+                <p>Son 32 los locales que operan en el callejón. Sin embargo, la cifra de puestos ambulantes superan la centena, en especial durante los fines de semana, según las cifras que manejan los locatarios.</p>
+                <p>De acuerdo con sus cálculos, sus costos de operación -incluyendo el alquiler- ascienden de forma estimada a unos 59.000 pesos mensuales (3.740 dólares), mientras que los de los ambulantes se quedan en 12.600 pesos (797 dólares).</p>
+                <p>Esta diferencia permite que los vendedores de la calle ofrezcan precios más económicos, lo que les está causando unas pérdidas que llegan al 50 %, aseguró a Efe Luis Medrano, uno de los propietarios de las tiendas del callejón.</p>
+                <p>Además de los recortes en sus ingresos directos, uno de los principales problemas surgidos de esta situación es la inseguridad, a causa de la acumulación de personas en poco espacio.</p>
+                <p>Los carteristas ven en el callejón un lugar fácil para sus actos, y además es frecuente la situación de robo de mercancía directamente a los locales, mediante las llamadas "falderas".</p>
+                <p>"Viene un grupo de diez personas, se meten como clientes y nos saquean las tiendas, si se distrae la gente que nos está comprando también les abren la cartera", explica otro de los locatarios del callejón, Rafael González.</p>
+                <p>Los comerciantes también indicaron que las pérdidas les han hecho recortar el personal, tanto empleados de la tienda como proveedores, que muchas veces trabajan desde sus casas realizando manualidades para sostener a sus familias, señala Medrano.</p>
+                <p>La versión que aportan los comerciantes de la calle se contradice con la de los establecidos en los locales. Según comenta a Efe una de las vendedoras ambulantes, ellos fueron quienes dieron vida a un callejón que "estaba muerto" y servía como "paso para los rateros".</p>
+                <p>Además, esta ambulante -que prefirió no dar su nombre- afirmó que los comerciantes de la calle trajeron al callejón nuevos productos, que más adelante las tiendas copiaron.</p>
+                <p>Fue con su llegada con la que el pasaje empezó a atraer a los paseantes, expresó la vendedora, quien dijo que, si optan por el ambulantaje, es por el alto precio de los alquileres; pagarlos significaría que no les quedaría dinero "para comer".</p>
+                <p>A pesar de que la ley prohíbe los comercios callejeros, esta "nunca se ha cumplido" y sigue habiendo muchos grupos que, además, apoyan a partidos políticos a través de sus líderes, con lo que "se vuelve una corrupción", aporta González.</p>
+                <p>Su situación, aseguran, es la misma que viven otros comerciantes del centro histórico, como los de Mixcalco, conocido por ser un lugar de venta de ropa.</p>
+                <p>En ocasiones, el Gobierno de la ciudad se ha encargado de realizar acciones de reordenamiento, como la sucedida en la plaza de Las Vizcaínas, en la avenida José María Izazaga.</p>
+                <p>"Les han dado muchas oportunidades que no han sabido aprovechar", sostiene Medrano, quien considera que a los ambulantes les gusta estar "en las mejores calles y en los pasos".</p>
+                <p>"No estamos en contra de estas personas, cada cual se gana la vida como quiere y como puede, pero sí estamos en contra de las acciones que ha hecho el Gobierno, es un problema que no ha querido ponerle atención" especifica el locatario.</p>
+                <p>Además, añadió que "el día que haya un temblor o un incendio va a ser cuando las autoridades van a poner cartas en el asunto".</p>
+                <p>Antes, el centro de la ciudad era un lugar donde había lista de espera para adquirir un establecimiento, pero ahora es frecuente encontrar locales vacíos, señalaron los propietarios de las tiendas.</p>
+                <p>Pero el panorama de inseguridad, sumado a los mensajes de los medios de comunicación de que hay que evitar ir al centro, han traído un descenso de ventas -que también denotan los ambulantes- con el que solo pueden "mantenerse".</p>
+                <p>"Estamos ahora sobreviviendo, esto ya no es negocio", sentenció Medrano. EFE</p>
+                <p>irg/pmc/nrp</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+</NewsML>

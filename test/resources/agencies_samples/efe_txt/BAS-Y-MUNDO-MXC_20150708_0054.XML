@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+  <!--NewsML documentation and last changes: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm.
+Documentacion NewsML y últimos cambios: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm-->
+  <NewsEnvelope>
+    <SentFrom>
+      <Party FormalName="EFE">
+        <Property FormalName="Organization" Value="Agencia EFE" />
+      </Party>
+    </SentFrom>
+    <DateAndTime>20150707T225410+0000</DateAndTime>
+    <NewsProduct FormalName="Servicio Internacional para México" />
+  </NewsEnvelope>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919869">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T225300+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919869</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T225300+0000:20919869:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T225300+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T225300+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919869.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Varapalo jurídico en primera reunión grupo negociador de deuda de Puerto Rico</HeadLine>
+        <SubHeadLine>P.RICO CRISIS</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="mgl/cav" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="PRI" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Macroeconomía ; Mercados de deuda-->
+          <SubjectDetail FormalName="04008003" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Macroeconomía ; Deuda estatal-->
+          <SubjectDetail FormalName="04008008" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Política ; Gobierno-->
+          <SubjectMatter FormalName="11006000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Finanzas (general) ; Política monetaria y fiscal-->
+          <SubjectDetail FormalName="04019001" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,DEUDA-INTERES;ECO:ECONOMIA,MACROECONOMIA;POL:POLITICA,GOBIERNO;ECO:ECONOMIA,MACROECONOMIA,FISCALIDAD" />
+        <Property FormalName="EfePais" Value="PRI" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Varapalo jurídico en primera reunión grupo negociador de deuda de Puerto Rico</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Macroeconomía;Mercados de deuda-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04008003" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Macroeconomía" tobject.subject.detail="Mercados de deuda" />
+                <!--Economía, negocios y finanzas;Macroeconomía;Deuda estatal-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04008008" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Macroeconomía" tobject.subject.detail="Deuda estatal" />
+                <!--Política;Gobierno-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11006000" tobject.subject.type="Política" tobject.subject.matter="Gobierno" />
+                <!--Economía, negocios y finanzas;Finanzas (general);Política monetaria y fiscal-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04019001" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Finanzas (general)" tobject.subject.detail="Política monetaria y fiscal" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;DEUDA-INTERES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002003" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="DEUDA-INTERES" />
+                <!--ECO:ECONOMIA;MACROECONOMIA-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06001000" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MACROECONOMIA" />
+                <!--POL:POLITICA;GOBIERNO-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01001000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="GOBIERNO" />
+                <!--ECO:ECONOMIA;MACROECONOMIA;FISCALIDAD-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06001003" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MACROECONOMIA" tobject.subject.detail="FISCALIDAD" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="San Juan" iso-cc="PRI" />
+                <doc-id id-string="20919869" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T225300+0000" />
+                <key-list>
+                  <keyword key="P.RICO CRISIS" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T225300+0000" edition.area="BGM INF MUN BDA MXC RDO COL FIB IBS" item-length="00702" unit-of-measure="word" id="CL2206" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Varapalo jurídico en primera reunión grupo negociador de deuda de Puerto Rico</hl1>
+                  <hl2>P.RICO CRISIS</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>mgl/cav</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T225300+0000">20150707T225300+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Los dirigentes del Gobierno de Puerto Rico designados para coordinar la renegociación de la deuda con los acreedores y para diseñar un plan fiscal a cinco años celebraron hoy su primera reunión, con el varapalo de la Justicia federal de que declarar inconstitucional la llamada "ley de quiebra criolla".</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>San Juan, 7 jul (EFE).- Los dirigentes del Gobierno de Puerto Rico designados para coordinar la renegociación de la deuda con los acreedores y para diseñar un plan fiscal a cinco años celebraron hoy su primera reunión, con el varapalo de la Justicia federal de que declarar inconstitucional la llamada "ley de quiebra criolla".</p>
+                <p> Esta ley, aprobada en junio de 2014, estaba diseñada para que las empresas públicas de la isla pudieran declararse en bancarrota, pero la Justicia federal considera que Puerto Rico no tiene jurisdicción para impulsar tal medida, ya que ya existe la Ley federal de Quiebras.</p>
+                <p>Así lo dictaminó un tribunal federal el pasado febrero y lo acaba de corroborar el Tribunal de Apelaciones de Boston, que ha declarado inconstitucional la llamada "Ley para el Cumplimiento con las Deudas y para la Recuperación de las Corporaciones Públicas", que había sido demandada por varios fondos de inversión que tienen deuda de empresas públicas de la isla.</p>
+                <p>El problema es que en la Ley federal de Quiebras Puerto Rico no está considerado como un estado más y no se le permite que sus empresas públicas se acojan a la protección de su Capítulo 9.</p>
+                <p>El Gobierno de Puerto Rico confiaba en que, con su propia "ley de quiebra criolla" pudiera "producir el marco legal para hacer viable la reorganización de la deuda de las empresas públicas" que, en palabras del gobernador de Puerto Rico, Alejandro García Padilla, es "inevitable".</p>
+                <p>Según García Padilla, Puerto Rico es "la única jurisdicción de EE.UU.,"y probablemente del mundo, que no tiene un ordenamiento legal para este manejo".</p>
+                <p>Con esta ley podría haberse sentado a negociar con los acreedores con el arma de poder declararse en quiebra, pero sin ella pierde herramientas de presión ante los bonistas.</p>
+                <p>En ese sentido, la representante del principal grupo de la oposición Lourdes Ramos dijo hoy que la decisión del Tribunal del Boston "deja inoperante al Grupo de Trabajo para la Recuperación Económica designado por el gobernador, ya que ningún bonista se sentará a negociar con los mismos que le quisieron empujar un impago en las obligaciones de Puerto Rico".</p>
+                <p>"Nadie se sienta con verdugos a negociar", comentó sobre un grupo de trabajo que en su opinión es "inútil y estéril" si lo que se quiere es "rescatar la confianza de los inversionistas y lograr acuerdos que permitan a la isla salir de la ruina en que la ha sumido el actual gobierno".</p>
+                <p>Este grupo de trabajo está formado por el secretario de la Gobernación, Víctor Suárez; el de Justicia, César Miranda; el presidente del Senado, Eduardo Bhatia; el presidente de la Cámara, Jaime Perelló; y la presidenta del Banco Gubernamental de Fomento (BGF), Melba Acosta Febo.</p>
+                <p>Durante esta primera reunión que tuvo lugar en la sede del BGF estuvieron también presentes analistas de Citigroup que trabajan como asesores externos del Gobierno para reestructurar la deuda.</p>
+                <p>También se iniciaron lo trabajos para elaborar un plan fiscal a cinco años, tal y como reclaman los mercados, que se quejan de la falta de seriedad de las proyecciones de los gobiernos de Puerto Rico a lo largo de los años.</p>
+                <p>Este grupo de trabajo se creó a raíz del anuncio la semana pasada por parte del gobernador de que convocaría a los bonistas para tratar de negociar reestructuraciones y moratorias en el pago de una deuda que se ha convertido en "impagable".</p>
+                <p>Aunque ésta haya sido la primera reunión oficial, el secretario de la Gobernación dijo el lunes que tanto él como la responsable del BGF se han estado reuniendo durante los últimos días con diversos asesores externos para aclarar estrategias sobre cómo abordar la negociación con los acreedores y cómo elaborar el citado plan fiscal.</p>
+                <p>Además, este grupo de trabajo ofrecerá antes del 30 de agosto un plan detallado sobre recomendaciones de reformas económicas y fiscales que deberá ser aprobado por la Legislatura.</p>
+                <p>Esta primera reunión tuvo lugar además el mismo día en que el Tribunal de Apelaciones de Boston validara hoy la orden un juez federal de embargar las cuentas del Departamento de Salud de Puerto Rico, después de que éste presentara un cheque sin fondos por 3,6 millones de dólares, 6 millones menos de lo que supuestamente adeudaba. EFE</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919867">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T225200+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919867</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T225200+0000:20919867:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T225200+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T225200+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919867.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Bolsas de A.Latina se desmarcan de ganancias en Wall Street y cierran mixtas</HeadLine>
+        <SubHeadLine>BOLSAS LATINOAMÉRICA</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="cav/lnm" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="USA" />
+        </Location>
+        <SubjectCode>
+          <!--Economía, negocios y finanzas ; Mercados y bolsas-->
+          <SubjectMatter FormalName="04009000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="ECO:ECONOMIA,MERCADOS-FINANZAS,BOLSAS-VALORES" />
+        <Property FormalName="EfePais" Value="USA" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Bolsas de A.Latina se desmarcan de ganancias en Wall Street y cierran mixtas</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="ECO" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="SI" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Economía, negocios y finanzas;Mercados y bolsas-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="04009000" tobject.subject.type="Economía, negocios y finanzas" tobject.subject.matter="Mercados y bolsas" />
+                <!--ECO:ECONOMIA;MERCADOS-FINANZAS;BOLSAS-VALORES-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F06002002" tobject.subject.type="ECO:ECONOMIA" tobject.subject.matter="MERCADOS-FINANZAS" tobject.subject.detail="BOLSAS-VALORES" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="Bogotá" iso-cc="USA" />
+                <doc-id id-string="20919867" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T225200+0000" />
+                <key-list>
+                  <keyword key="BOLSAS LATINOAMÉRICA" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T225200+0000" edition.area="BGM INF MUN BDA MXC RDO COL USA PUR FIB IBS" item-length="00490" unit-of-measure="word" id="CL2205" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Bolsas de A.Latina se desmarcan de ganancias en Wall Street y cierran mixtas</hl1>
+                  <hl2>BOLSAS LATINOAMÉRICA</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>cav/lnm</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T225200+0000">20150707T225200+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>Los mercados de América Latina terminaron
+la sesión mixtos pese a las ganancias en Wall Street, donde el Dow
+Jones de Industriales avanzó hoy un 0,53 %, en un día en el que
+persistió el nerviosismo por la situación en Grecia y sin noticias
+de relevancia de la económica de Estados Unidos.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p />
+                <p>Bogotá, 7 jul (EFE).- Los mercados de América Latina terminaron
+la sesión mixtos pese a las ganancias en Wall Street, donde el Dow
+Jones de Industriales avanzó hoy un 0,53 %, en un día en el que
+persistió el nerviosismo por la situación en Grecia y sin noticias
+de relevancia de la económica de Estados Unidos.</p>
+                <p>Así, el indicador de referencia neoyorquino acabó la sesión en
+17.776,91 unidades, mientras que el selectivo S&amp;P ganó un 0,61 %
+hasta los 2.081,34 enteros y el índice compuesto del mercado Nasdaq
+avanzó un 0,11 % y cerró en los 4.997,46 puntos.</p>
+                <p>Por su parte, las principales bolsas europeas, que comenzaron la
+sesión de hoy con la intención de protagonizar un leve rebote,
+volvieron a sucumbir al pesimismo por la falta de avances en las
+negociaciones entre socios, acreedores y Grecia, que compareció en
+el Eurogrupo sin nuevas propuestas, que presentará mañana.</p>
+                <p>Así, las principales bolsas europeas cerraron a la baja,
+lideradas por Milán, que perdió el 2,97 %, París, que se dejó el
+2,27 %; Lisboa, el 2,24 %; Fráncfort, el 1,96 %; Madrid, el 1,84 %,
+y Londres, el 1,58 %.</p>
+                <p>Con este panorama, las plazas de América Latina no se inclinaron
+por una tendencia y terminaron en terreno mixto.</p>
+                <p>En la zona de las ganancias, el índice Ibovespa de Sao Paulo
+subió un 0,37 % y avanzó hasta los 52.343 puntos, después de hacer
+negocios por 7.222 millones de reales (unos 2.269 millones de
+dólares).</p>
+                <p>El Índice de Precios y Cotizaciones (IPC) de México subió un 0,50
+% y cerró en 45.017,75 unidades, al cabo de movimientos por 21.917
+millones de pesos (unos 1.387 millones de dólares).</p>
+                <p>Y el mercado de Buenos Aires ascendió el 0,45 % y quedó en los
+11.842,55 enteros con un monto de valores que sumaron 154,3 millones
+de pesos (16,9 millones de dólares).</p>
+                <p>Por contra, en la zona de números rojos la Bolsa de Comercio de
+Santiago bajó el 0,48 % en su índice principal, el IPSA, que se
+estacionó en 3.777,91 puntos, con un total de transacciones por
+50.067.827.704 pesos (unos 78,23 millones de dólares).</p>
+                <p>Asimismo, la rueda colombiana retrocedió un 0,29 % en su índice
+de capitalización (Colcap), que cerró en 1.305,92 unidades, tras un
+intercambio de papeles por 87.149,80 millones de pesos (unos 32,6
+millones de dólares).</p>
+                <p>Y para cerrar la zona de pérdidas el índice S&amp;P/BVL Perú General
+se detuvo en 12.837,56 enteros, tras registrar ceder un 0,46 %, en
+una sesión en la que se negociaron 10.886.336 nuevos soles
+(equivalentes a 3.426.609 dólares).</p>
+                <p>Finalmente y sin cambios, la ronda bursátil de Montevideo se
+ubicó en los 4.166,50 puntos, tras efectuar operaciones por
+49.805.663 pesos (unos 1.828.500 dólares).</p>
+                <p>La evolución de las bolsas latinoamericanas fue la siguiente:</p>
+                <p>Mercado              Cierre        Puntos</p>
+                <p>SAO PAULO            +0,37 %       52.343</p>
+                <p>MÉXICO               +0,50 %       45.017,75</p>
+                <p>BUENOS AIRES         +0,45 %       11.842,55</p>
+                <p>SANTIAGO             -0,48 %        3.777,91</p>
+                <p>COLOMBIA             -0,29 %        1.305,92</p>
+                <p>LIMA                 -0,46 %       12.837,56</p>
+                <p>MONTEVIDEO            0,00 %        4.166,50</p>
+                <p>EFE</p>
+                <p>cav/lnm</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+</NewsML>

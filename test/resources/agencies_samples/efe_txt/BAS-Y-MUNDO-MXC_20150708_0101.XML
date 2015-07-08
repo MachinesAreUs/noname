@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewsML Version="1.2">
+  <!--NewsML documentation and last changes: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm.
+Documentacion NewsML y últimos cambios: http://www.efe.com/documentosefe/efenewsml/EfeNewsML.htm-->
+  <NewsEnvelope>
+    <SentFrom>
+      <Party FormalName="EFE">
+        <Property FormalName="Organization" Value="Agencia EFE" />
+      </Party>
+    </SentFrom>
+    <DateAndTime>20150707T230132+0000</DateAndTime>
+    <NewsProduct FormalName="Servicio Internacional para México" />
+  </NewsEnvelope>
+  <!--** SUGGESTION FOR DEVS: Use 'Duid' attribute to help you on XPath navigation.-->
+  <NewsItem Duid="text_20919877">
+    <Comment FormalName="EfeNewsMLVersion">1.0.1</Comment>
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>texto.efeservicios.com</ProviderId>
+        <!--Creation date.-->
+        <DateId>20150707T225900+0000</DateId>
+        <!--Id of the news for THIS format.-->
+        <NewsItemId>20919877</NewsItemId>
+        <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+        <!--Usefull to check changes between versions on same news item. See NewsML documentation.-->
+        <PublicIdentifier>urn:newsml:texto.efeservicios.com:20150707T225900+0000:20919877:1</PublicIdentifier>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <!--Creation date.-->
+      <FirstCreated>20150707T225900+0000</FirstCreated>
+      <!--Last modification date.-->
+      <ThisRevisionCreated>20150707T225900+0000</ThisRevisionCreated>
+      <Status FormalName="Usable" />
+      <Urgency FormalName="5" />
+    </NewsManagement>
+    <NewsComponent Duid="text_20919877.text">
+      <Role FormalName="Main" />
+      <NewsLines>
+        <!--Title-->
+        <HeadLine>Evo Morales: papa y movimientos sociales deben ser "yunta" para la liberación</HeadLine>
+        <SubHeadLine>PAPA BOLIVIA</SubHeadLine>
+        <CopyrightLine>© EFE 2015. Está expresamente prohibida la redistribución y la redifusión de todo o parte de los contenidos de los servicios de Efe, sin previo y expreso consentimiento de la Agencia EFE S.A.</CopyrightLine>
+      </NewsLines>
+      <AdministrativeMetadata>
+        <Provider>
+          <Party FormalName="Agencia EFE" />
+        </Provider>
+        <Creator>
+          <Party FormalName="(foto)" />
+        </Creator>
+      </AdministrativeMetadata>
+      <DescriptiveMetadata>
+        <Language FormalName="es-ES" />
+        <Location HowPresent="Event">
+          <Property FormalName="Country" Value="BOL" />
+        </Location>
+        <SubjectCode>
+          <!--Religión y credos ; Líder religioso ; Papa-->
+          <SubjectDetail FormalName="12015001" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Asuntos sociales ; Asuntos sociales (general)-->
+          <SubjectMatter FormalName="14025000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <SubjectCode>
+          <!--Política ; Gobierno-->
+          <SubjectMatter FormalName="11006000" Scheme="IptcSubjectCodes" />
+        </SubjectCode>
+        <Property FormalName="Tesauro" Value="SOC:SOCIEDAD-SALUD,RELIGION;SOC:SOCIEDAD-SALUD;POL:POLITICA,GOBIERNO" />
+        <Property FormalName="EfePais" Value="BOL" />
+        <Property FormalName="EfeRegional" Value="" />
+        <Property FormalName="EfeComplemento" Value="" />
+      </DescriptiveMetadata>
+      <ContentItem>
+        <MediaType FormalName="Text" />
+        <Format FormalName="NITF" />
+        <MimeType FormalName="text/vnd.IPTC.NITF" />
+        <DataContent>
+          <nitf version="-//IPTC//DTD NITF 3.2//EN" change.date="October 10, 2003" change.time="19:30" baselang="es-ES">
+            <head>
+              <title>Evo Morales: papa y movimientos sociales deben ser "yunta" para la liberación</title>
+              <meta name="prioridad" content="R" />
+              <meta name="categoria" content="SOC" />
+              <meta name="tabulacion" content="BT" />
+              <meta name="tabuladores" content="NO" />
+              <meta name="regional" content="" />
+              <meta name="complemento" content="" />
+              <tobject tobject.type="News">
+                <!--Religión y credos;Líder religioso;Papa-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="12015001" tobject.subject.type="Religión y credos" tobject.subject.matter="Líder religioso" tobject.subject.detail="Papa" />
+                <!--Asuntos sociales;Asuntos sociales (general)-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="14025000" tobject.subject.type="Asuntos sociales" tobject.subject.matter="Asuntos sociales (general)" />
+                <!--Política;Gobierno-->
+                <tobject.subject tobject.subject.ipr="IPTC" tobject.subject.refnum="11006000" tobject.subject.type="Política" tobject.subject.matter="Gobierno" />
+                <!--SOC:SOCIEDAD-SALUD;RELIGION-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F04008000" tobject.subject.type="SOC:SOCIEDAD-SALUD" tobject.subject.matter="RELIGION" />
+                <!--SOC:SOCIEDAD-SALUD-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F04000000" tobject.subject.type="SOC:SOCIEDAD-SALUD" />
+                <!--POL:POLITICA;GOBIERNO-->
+                <tobject.subject tobject.subject.ipr="EFE" tobject.subject.refnum="F01001000" tobject.subject.type="POL:POLITICA" tobject.subject.matter="GOBIERNO" />
+              </tobject>
+              <docdata management-status="usable">
+                <evloc city="La Paz" iso-cc="BOL" />
+                <doc-id id-string="20919877" />
+                <urgency ed-urg="5" />
+                <date.issue norm="20150707T225900+0000" />
+                <key-list>
+                  <keyword key="PAPA BOLIVIA" />
+                </key-list>
+              </docdata>
+              <pubdata date.publication="20150707T225900+0000" edition.area="BGM INF MUN BDA RDO COL MXC USA PUR" item-length="00529" unit-of-measure="word" id="CL2208" />
+            </head>
+            <body>
+              <body.head>
+                <hedline>
+                  <hl1>Evo Morales: papa y movimientos sociales deben ser "yunta" para la liberación</hl1>
+                  <hl2>PAPA BOLIVIA</hl2>
+                </hedline>
+                <rights>
+                  <rights.owner>Agencia EFE</rights.owner>
+                </rights>
+                <byline>(foto)</byline>
+                <distributor>Agencia EFE</distributor>
+                <dateline>
+                  <!--Creation date.-->
+                  <!--ATTENTION: Use "norm" attribute as datetime. The datetime inside tag "story.date" is a mistake but we maintain it to avoid errors in our customers.
+ATENCION: Use el atributo "norm" como fecha y hora. La fecha y hora presente en la etiqueta "story.date" es un error pero seguimos incluyéndolo para evitar errores en nuestros clientes.-->
+                  <story.date norm="20150707T225900+0000">20150707T225900+0000</story.date>
+                </dateline>
+                <abstract>
+                  <p>El presidente de Bolivia, Evo Morales, expresó hoy su deseo de que el papa Francisco y las organizaciones sociales sean "como una yunta para liberar a los pueblos del mundo", al inaugurar en la ciudad de Santa Cruz (este) el II Encuentro Mundial de Movimientos Populares.</p>
+                </abstract>
+              </body.head>
+              <body.content>
+                <p>La Paz, 7 jul (EFE).- El presidente de Bolivia, Evo Morales, expresó hoy su deseo de que el papa Francisco y las organizaciones sociales sean "como una yunta para liberar a los pueblos del mundo", al inaugurar en la ciudad de Santa Cruz (este) el II Encuentro Mundial de Movimientos Populares.</p>
+                <p>"Esperamos que nuestros movimientos sociales del mundo junto al hermano papa Francisco sean como una yunta para liberar a los pueblos del mundo. Es el gran deseo que tengo desde acá", señaló Morales en su discurso de apertura del evento.</p>
+                <p>Agregó que la tarea que tendrán los delegados que asisten al encuentro de tres días será elaborar un documento "que permita liberar a todos los pueblos del mundo" de las injusticias sociales y las "anarquías financieras" existentes.</p>
+                <p>"Y esa lucha de los movimientos sociales sea acompañada por la Iglesia católica y otras iglesias también que se sumen para la liberación de los pueblos en el mundo", agregó.</p>
+                <p>Al encuentro, organizado por el Consejo Pontificio de Justicia y Paz del Vaticano y el Viceministerio boliviano de Coordinación con los Movimientos Sociales, asisten unos 1.500 delegados de diversos países, sobre todo latinoamericanos.</p>
+                <p>En representación de Bolivia asisten dirigentes de indígenas y sindicatos de obreros y campesinos afines al Gobierno boliviano, así como el sector juvenil del partido oficialista.</p>
+                <p>Morales expresó su sorpresa de que un papa acompañe a los movimientos populares "con sus mensajes de justicia y paz, pero paz con justicia social" y opinó que el nombre de Francisco está dando "honor y orgullo a los pueblos y a la Iglesia" porque San Francisco de Asís era el "santo de los pobres".</p>
+                <p>El mandatario boliviano reiteró sus usuales críticas hacia el "imperialismo" estadounidense y al Fondo Monetario Internacional (FMI), y volvió a celebrar el triunfo del "no" en el referéndum en Grecia sobre las últimas propuestas de los acreedores a ese país.</p>
+                <p>"Yo estoy convencido que este nuevo milenio no es milenio de oligarquías, ni jerarquías, ni monarquías, menos de anarquías económicas ni financieras, es tiempo de los pueblos del mundo", aseguró Morales.</p>
+                <p>Instó a los delegados a debatir para hallar el "origen de la pobreza, de la desigualdad" y de las políticas e instituciones económicas que, a su juicio, son las causantes de esos problemas.</p>
+                <p>A su turno, el presidente del Consejo Pontificio de Justicia y Paz del Vaticano, el cardenal Peter Turkson, resaltó la necesidad de que el mundo avance "en un proceso de cambio en defensa de la Tierra y la dignidad de las personas", tarea que no es exclusiva de los líderes religiosos o políticos, "sino de toda la humanidad".</p>
+                <p>"El grito, la queja, la protesta y la represión de los pobres son de vital importancia para que los poderosos del mundo comprendan que así no se puede seguir. La iglesia quiere escuchar este grito y sumarse a él", afirmó Turkson.</p>
+                <p>El cardenal ghanés fue uno de los encargados de presentar hace dos semanas la encíclica del papa Francisco sobre el calentamiento global, "Laudato Si" ("Alabado seas").</p>
+                <p>El papa Francisco, que iniciará este miércoles una visita de tres días a Bolivia, asistirá el jueves a la clausura del encuentro junto a Morales. EFE</p>
+                <p>gb/ja/arm</p>
+              </body.content>
+            </body>
+          </nitf>
+        </DataContent>
+      </ContentItem>
+    </NewsComponent>
+  </NewsItem>
+</NewsML>
