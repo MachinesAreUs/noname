@@ -1,6 +1,6 @@
-# Iris
+# This is something
 
-To start Iris:
+To start something:
 
 1. Install postgresql with user 'postgres' and login and creatdb permissions
 
