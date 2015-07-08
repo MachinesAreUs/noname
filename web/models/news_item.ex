@@ -10,8 +10,8 @@ defmodule Iris.NewsItem do
     timestamps
   end
 
-  @required_fields ~w(title provider body embargo)
-  @optional_fields ~w()
+  @required_fields ~w(title provider body)
+  @optional_fields ~w(embargo)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
