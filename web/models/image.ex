@@ -13,8 +13,8 @@ defmodule Iris.Image do
     timestamps
   end
 
-  @required_fields ~w(headline sub_headline country provider copyright_line creation_date embargo)
-  @optional_fields ~w()
+  @required_fields ~w(headline sub_headline country provider copyright_line creation_date)
+  @optional_fields ~w(embargo)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
