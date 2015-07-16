@@ -14,6 +14,8 @@ defmodule Iris.Agencies.EfeExtractor do
     headline       = xml_node |> XmlNode.first('NewsComponent/NewsLines/HeadLine')      |> XmlNode.text
     sub_headline   = xml_node |> XmlNode.first('NewsComponent/NewsLines/SubHeadLine')   |> XmlNode.text
     copyright_line = xml_node |> XmlNode.first('NewsComponent/NewsLines/CopyrightLine') |> XmlNode.text
+    creation_date  = xml_node |> XmlNode.first('Identification/NewsIdentifier/DateId')  |> XmlNode.text
+    #TODO  convert to DateTime
 
     %Image{
       headline:       headline,

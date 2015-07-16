@@ -2,10 +2,12 @@ defmodule Iris.NewsItemControllerTest do
   use Iris.ConnCase
 
   alias Iris.NewsItem
-  @valid_attrs %{body: "some content",
-                 embargo: %{day: 17, month: 4, year: 2010}, 
-                 provider: "some content", 
-                 title: "some content"}
+  @valid_attrs %{
+    body:          "some content",
+    creation_date: %{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    embargo:       %{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    provider:      "some content",
+    title:         "some content"}
   @invalid_attrs %{}
 
   setup do

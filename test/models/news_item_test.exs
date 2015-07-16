@@ -3,7 +3,12 @@ defmodule Iris.NewsItemTest do
 
   alias Iris.NewsItem
 
-  @valid_attrs %{body: "some content", embargo: %{day: 17, month: 4, year: 2010}, provider: "some content", title: "some content"}
+  @valid_attrs %{
+    body:          "some content",
+    embargo:       %{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    creation_date: %{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    provider:      "some content",
+    title:         "some content"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do

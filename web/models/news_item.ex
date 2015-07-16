@@ -5,12 +5,13 @@ defmodule Iris.NewsItem do
     field :title    , :string
     field :provider , :string
     field :body     , :string
-    field :embargo  , Ecto.Date
+    field :creation_date  , Ecto.DateTime
+    field :embargo  , Ecto.DateTime
 
     timestamps
   end
 
-  @required_fields ~w(title provider body)
+  @required_fields ~w(title provider body creation_date)
   @optional_fields ~w(embargo)
 
   @doc """
