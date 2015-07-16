@@ -34,7 +34,7 @@ defmodule Iris.XmlNode do
 
   def xpath(nil, _), do: []
   def xpath(node, path) do
-    #:xmerl_xpath.string(to_char_list(path), node)
-    :xmerl_xpath.string(path, node)
+    :xmerl_xpath.string(to_char_list(path), node)
   end
 end
+
