@@ -2,11 +2,11 @@ defmodule Iris.NewsItem do
   use Iris.Web, :model
 
   schema "newsitems" do
-    field :title    , :string
-    field :provider , :string
-    field :body     , :string
-    field :creation_date  , Ecto.DateTime
-    field :embargo  , Ecto.DateTime
+    field :title         , :string
+    field :provider      , :string
+    field :body          , :string
+    field :creation_date , Ecto.DateTime
+    field :embargo       , Ecto.DateTime
 
     timestamps
   end
