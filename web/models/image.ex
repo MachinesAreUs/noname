@@ -2,13 +2,13 @@ defmodule Iris.Image do
   use Iris.Web, :model
 
   schema "images" do
-    field :headline, :string
-    field :sub_headline, :string
-    field :country, :string
-    field :provider, :string
-    field :copyright_line, :string
-    field :creation_date, Ecto.Date
-    field :embargo, Ecto.Date
+    field :headline       , :string
+    field :sub_headline   , :string
+    field :country        , :string
+    field :provider       , :string
+    field :copyright_line , :string
+    field :creation_date  , Ecto.DateTime
+    field :embargo        , Ecto.DateTime
 
     timestamps
   end

@@ -1,10 +1,5 @@
 defmodule Iris.Agencies.EfeExtractor do
 
-  require Record
-
-  Record.defrecord :xmlElement, Record.extract(:xmlElement, from_lib: "xmerl/include/xmerl.hrl")
-  Record.defrecord :xmlText   , Record.extract(:xmlText   , from_lib: "xmerl/include/xmerl.hrl")
-
   alias Iris.Image
   alias Iris.XmlNode
 
@@ -23,7 +18,8 @@ defmodule Iris.Agencies.EfeExtractor do
     %Image{
       headline:       headline,
       sub_headline:   sub_headline,
-      copyright_line: copyright_line
+      copyright_line: copyright_line,
+      provider:       "EFE"
     }
   end
 
