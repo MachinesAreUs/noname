@@ -15,7 +15,7 @@ defmodule Iris.SubjectCodeController do
     changeset = SubjectCode.changeset(%SubjectCode{}, subject_code_params)
 
     if changeset.valid? do
-      subject_code = Repo.insert(changeset)
+      subject_code = Repo.insert!(changeset)
       render(conn, "show.json", subject_code: subject_code)
     else
       conn
@@ -34,7 +34,7 @@ defmodule Iris.SubjectCodeController do
     changeset = SubjectCode.changeset(subject_code, subject_code_params)
 
     if changeset.valid? do
-      subject_code = Repo.update(changeset)
+      subject_code = Repo.update!(changeset)
       render(conn, "show.json", subject_code: subject_code)
     else
       conn
@@ -46,7 +46,7 @@ defmodule Iris.SubjectCodeController do
   def delete(conn, %{"id" => id}) do
     subject_code = Repo.get(SubjectCode, id)
 
-    subject_code = Repo.delete(subject_code)
+    subject_code = Repo.delete!(subject_code)
     render(conn, "show.json", subject_code: subject_code)
   end
 end
