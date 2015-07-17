@@ -14,13 +14,13 @@ defmodule Iris.Agencies.EfeExtractor do
     headline       = xml_node |> XmlNode.first('NewsComponent/NewsLines/HeadLine')      |> XmlNode.text
     sub_headline   = xml_node |> XmlNode.first('NewsComponent/NewsLines/SubHeadLine')   |> XmlNode.text
     copyright_line = xml_node |> XmlNode.first('NewsComponent/NewsLines/CopyrightLine') |> XmlNode.text
-    creation_date  = xml_node |> XmlNode.first('Identification/NewsIdentifier/DateId')  |> XmlNode.text
-    #TODO  convert to DateTime
+    creation_date  = xml_node |> XmlNode.first('Identification/NewsIdentifier/DateId')  |> XmlNode.text |> to_date
 
     %Image{
       headline:       headline,
       sub_headline:   sub_headline,
       copyright_line: copyright_line,
+      creation_date:  creation_date,
       provider:       "EFE"
     }
   end
@@ -33,6 +33,26 @@ defmodule Iris.Agencies.EfeExtractor do
     IO.inspect xml_node
     IO.puts "--End Inspect--"
     xml_node
+  end
+
+  def to_date(date_str) do
+    use Timex
+    {ok, %DateTime{
+      year:   year,
+      month:  month,
+      day:    day,
+      hour:   hour,
+      minute: min,
+      second: sec
+    }} = date_str |> DateFormat.parse "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"
+    %Ecto.DateTime{
+      year:  year,
+      month: month,
+      day:   day,
+      hour:  hour,
+      min:   min,
+      sec:   sec
+    }
   end
 
 end

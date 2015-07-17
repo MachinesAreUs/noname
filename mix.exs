@@ -29,12 +29,16 @@ defmodule Iris.Mixfile do
   #
   # Type `mix help deps` for examples and options
   defp deps do
-    [{:phoenix, "~> 0.13.1"},
+    [
+     {:phoenix, "~> 0.13.1"},
      {:phoenix_ecto, "~> 0.4"},
-     {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 1.0"},
      {:phoenix_live_reload, "~> 0.4", only: :dev},
+     {:postgrex, ">= 0.0.0"},
+     {:ecto, ">= 0.13.1"},
      {:timex, "~> 0.16.1"},
-     {:cowboy, "~> 1.0"}]
+     {:timex_ecto, "~> 0.3.0"},
+     {:cowboy, "~> 1.0"}
+    ]
   end
 end
