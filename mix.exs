@@ -30,6 +30,7 @@ defmodule Iris.Mixfile do
   # Type `mix help deps` for examples and options
   defp deps do
     [
+     {:cowboy, "~> 1.0"},
      {:phoenix, "~> 0.13.1"},
      {:phoenix_ecto, "~> 0.4"},
      {:phoenix_html, "~> 1.0"},
@@ -38,7 +39,7 @@ defmodule Iris.Mixfile do
      {:ecto, ">= 0.13.1"},
      {:timex, "~> 0.16.1"},
      {:timex_ecto, "~> 0.3.0"},
-     {:cowboy, "~> 1.0"}
+     {:httpoison, "~> 0.7"},
     ]
   end
 end
