@@ -21,9 +21,9 @@ defmodule Iris.Router do
   scope "/api", Iris do
     pipe_through :api
 
-    resources "/newsitems"   , NewsItemController   , except: [:edit , :new]
-    resources "/images"      , ImageController      , except: [:edit , :new]
-    resources "/subjectcodes", SubjectCodeController, except: [:edit , :new]
+    resources "/newsitems"   , NewsItemController   , except: [:edit, :new]
+    resources "/images"      , ImageController      , except: [:edit, :new]
+    resources "/subjectcodes", SubjectCodeController, except: [:edit, :new]
   end
 
   socket "/channels/notifications", Iris do
