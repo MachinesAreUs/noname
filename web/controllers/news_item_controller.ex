@@ -11,8 +11,21 @@ defmodule Iris.NewsItemController do
     render(conn, "index.json", newsitems: newsitems)
   end
 
+  def createp(conn, params) do
+    IO.puts "-->"
+    IO.inspect params
+    {:ok, body, _conn_details} = Plug.Conn.read_body(conn)
+    IO.inspect body
+    render(conn, "show.json", news_item: %NewsItem{})
+  end
+
   def create(conn, %{"news_item" => news_item_params}) do
-    changeset = NewsItem.changeset(%NewsItem{}, news_item_params)
+    # These 2 lines are because I can't get phoenix to recognize the json in the body.
+    # It forcefully expects the parameters to be in the URL.
+    {:ok, body, _conn_details} = Plug.Conn.read_body(conn)
+    news_item = Poison.decode! body
+
+    changeset = NewsItem.changeset(%NewsItem{}, news_item)
 
     if changeset.valid? do
       news_item = Repo.insert!(changeset)
