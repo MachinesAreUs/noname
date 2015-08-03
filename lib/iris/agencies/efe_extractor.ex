@@ -1,7 +1,7 @@
 defmodule Iris.Agencies.EfeExtractor do
 
   alias Iris.Image
-  alias Iris.XmlNode
+  alias Iris.Util.XmlNode
 
   def to_images(xml_str) do
     xml_str 
@@ -37,7 +37,7 @@ defmodule Iris.Agencies.EfeExtractor do
 
   def to_date(date_str) do
     use Timex
-    {ok, %DateTime{
+    {:ok, %DateTime{
       year:   year,
       month:  month,
       day:    day,
