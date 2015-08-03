@@ -21,9 +21,10 @@ defmodule Iris.NewsItemControllerTest do
   end
 
   test "shows chosen resource", %{conn: conn} do
-    import Iris.Time
+    import Iris.Util.Time
 
-    news_item = Repo.insert!(Map.merge(%NewsItem{}, @valid_attrs))
+    news_item = Map.merge(%NewsItem{}, @valid_attrs)
+    news_item = Repo.insert! news_item
     conn = get conn, news_item_path(conn, :show, news_item)
     assert json_response(conn, 200)["news_item"] == %{
       "id"            => news_item.id,

@@ -1,4 +1,4 @@
-defmodule Iris.Time do
+defmodule Iris.Util.Time do
   use Timex
 
   def to_timestamp_str(%Ecto.DateTime{year: year, month: month, day: day, hour: hour, min: min, sec: sec}) do
