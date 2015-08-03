@@ -6,30 +6,26 @@ defmodule Iris.NewsItemController do
   plug :scrub_params, "news_item" when action in [:create, :update]
   plug :action
 
+  defp without_meta(map) do
+    Map.drop map, [:__meta__, :__struct__]
+  end
+
   def index(conn, _params) do
     newsitems = Repo.all(NewsItem)
     render(conn, "index.json", newsitems: newsitems)
   end
 
-  def createp(conn, params) do
-    IO.puts "-->"
-    IO.inspect params
-    {:ok, body, _conn_details} = Plug.Conn.read_body(conn)
-    IO.inspect body
-    render(conn, "show.json", news_item: %NewsItem{})
-  end
-
   def create(conn, %{"news_item" => news_item_params}) do
     # These 2 lines are because I can't get phoenix to recognize the json in the body.
     # It forcefully expects the parameters to be in the URL.
-    {:ok, body, _conn_details} = Plug.Conn.read_body(conn)
-    news_item = Poison.decode! body
+    # {:ok, body, _conn_details} = Plug.Conn.read_body(conn)
+    # news_item = Poison.decode! body
 
-    changeset = NewsItem.changeset(%NewsItem{}, news_item)
+    changeset = NewsItem.changeset(%NewsItem{}, news_item_params)
 
     if changeset.valid? do
       news_item = Repo.insert!(changeset)
-      render(conn, "show.json", news_item: news_item)
+      render(conn, "show.json", news_item: without_meta(news_item))
     else
       conn
       |> put_status(:unprocessable_entity)
@@ -39,7 +35,7 @@ defmodule Iris.NewsItemController do
 
   def show(conn, %{"id" => id}) do
     news_item = Repo.get(NewsItem, id)
-    render conn, "show.json", news_item: news_item
+    render conn, "show.json", news_item: without_meta(news_item)
   end
 
   def update(conn, %{"id" => id, "news_item" => news_item_params}) do
