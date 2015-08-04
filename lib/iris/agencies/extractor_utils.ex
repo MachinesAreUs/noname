@@ -1,12 +1,12 @@
 defmodule Iris.Agencies.ExtractorUtils do
 
-
   defmacro image_extractor(
            name, 
            root: [xpath: root_path],
            headline: [xpath: headline_path],
            sub_headline: [xpath: sub_headline_path],
            copyright_line: [xpath: copyright_path],
+           creation_date: [xpath: creation_date_path, format: date_format],
            provider: [literal: provider]
            ) do
     quote do
@@ -31,28 +31,33 @@ defmodule Iris.Agencies.ExtractorUtils do
                    unquote(headline_path), 
                    unquote(sub_headline_path),
                    unquote(copyright_path),
+                   unquote(creation_date_path),
+                   unquote(date_format),
                    unquote(provider))
                  end
         end
 
-        def to_image(xml_node, 
+        def to_image(node, 
                      headline_path, 
                      sub_headline_path,
                      copyright_path,
+                     creation_date_path,
+                     date_format,
                      provider) do
           alias Iris.Image
-          alias Iris.Util.XmlNode
+          import Iris.Util.XmlNode
+          import Iris.Util.Time
 
-          headline       = xml_node |> XmlNode.first(headline_path)     |> XmlNode.text
-          sub_headline   = xml_node |> XmlNode.first(sub_headline_path) |> XmlNode.text
-          copyright_line = xml_node |> XmlNode.first(copyright_path)    |> XmlNode.text
-          #creation_date  = xml_node |> XmlNode.first() |> XmlNode.text |> to_date
+          headline       = node |> first(headline_path)      |> text
+          sub_headline   = node |> first(sub_headline_path)  |> text
+          copyright_line = node |> first(copyright_path)     |> text
+          creation_date  = node |> first(creation_date_path) |> text |> from_str(date_format)
 
           %Image{
             headline:       headline,
             sub_headline:   sub_headline,
             copyright_line: copyright_line,
-            #creation_date:  creation_date,
+            creation_date:  creation_date,
             provider:       provider
           }
         end

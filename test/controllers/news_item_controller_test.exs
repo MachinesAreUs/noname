@@ -31,10 +31,10 @@ defmodule Iris.NewsItemControllerTest do
       "title"         => news_item.title,
       "body"          => news_item.body,
       "provider"      => news_item.provider,
-      "creation_date" => to_timestamp_str(news_item.creation_date),
-      "embargo"       => to_timestamp_str(news_item.embargo),
-      "inserted_at"   => to_timestamp_str(news_item.inserted_at),
-      "updated_at"    => to_timestamp_str(news_item.updated_at)
+      "creation_date" => to_str(news_item.creation_date),
+      "embargo"       => to_str(news_item.embargo),
+      "inserted_at"   => to_str(news_item.inserted_at),
+      "updated_at"    => to_str(news_item.updated_at)
     }
   end
 

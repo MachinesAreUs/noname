@@ -17,7 +17,7 @@ defmodule Iris.Agencies.EfeExtractorTest do
       assert not is_nil it.copyright_line
       #assert not is_nil it.country
       assert it.provider == "EFE"
-      #assert not is_nil it.creation_date
+      assert not is_nil it.creation_date
     end
   end
 

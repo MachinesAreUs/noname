@@ -3,7 +3,7 @@ defmodule Iris.Util.TimeTest do
   import Iris.Util.Time
 
   test "formating a null date should give an empty string" do
-    assert to_timestamp_str(nil) == "" 
+    assert to_str(nil) == "" 
   end
 
   test "formatting an Ecto.DateTime should give an ISO formatted string" do
@@ -15,7 +15,7 @@ defmodule Iris.Util.TimeTest do
       min:   23,
       sec:   0
     }
-    assert to_timestamp_str(date) == "2015-08-03T16:23:00Z"
+    assert to_str(date) == "2015-08-03T16:23:00Z"
   end
 
 end

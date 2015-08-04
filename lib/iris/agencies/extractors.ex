@@ -7,8 +7,8 @@ defmodule Iris.Agencies.Extractors do
     headline:       [xpath: "NewsComponent/NewsLines/HeadLine"],
     sub_headline:   [xpath: "NewsComponent/NewsLines/SubHeadLine"],
     copyright_line: [xpath: "NewsComponent/NewsLines/CopyrightLine"],
-    #creation_date:  [xpath: "Identification/NewsIdentifier/DateId", with: :to_date, args: "%Y-%m-%d %H:%M:%S%z"],
-    #body:           [xpath: "NewsComponent/ContentItem/DataContent/body/body.content"],
+    creation_date:  [xpath: "Identification/NewsIdentifier/DateId", 
+                     format: "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"],
     provider:       [literal: "EFE"] 
 
     #news_extractor :AFP,
