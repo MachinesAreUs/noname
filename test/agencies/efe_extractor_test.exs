@@ -5,10 +5,10 @@ defmodule Iris.Agencies.EfeExtractorTest do
   
   @resources_base_path "./test/resources/agencies_samples/efe_img/"
 
-  test "to_images" do
+  test "EFE to_images" do
     xml_file       = "f-y-general\(efe\)mexico_20150708_0041.xml"
     {:ok, xml_str} = File.read "#{@resources_base_path}/#{xml_file}"
-    res            = EfeExtractor.to_images xml_str
+    res            = :EFE.extract_images xml_str
     assert length(res) == 2
     Enum.each res, fn(it) -> 
       assert it.__struct__ == Image
