@@ -11,6 +11,15 @@ defmodule Iris.Agencies.Extractors do
                      format: "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"],
     provider:       [literal: "EFE"] 
 
+  image_extractor :AFP,
+    root:           [xpath: "NewsItem"],
+    headline:       [xpath: "NewsComponent/NewsLines/HeadLine"],
+    sub_headline:   [xpath: "NewsComponent/NewsLines/HeadLine"], 
+    copyright_line: [xpath: "NewsComponent/NewsComponent/ContenItem/DataContent[2]/body.content"],
+    creation_date:  [xpath: "NewsManagement/FirstCreated", 
+                     format: "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"],
+    provider:       [literal: "AFP"] 
+
     #news_extractor :AFP,
     #  headline:       [xpath: "NewsML/NewsComponent/HeadLine"],
     #  sub_headline:   :none,

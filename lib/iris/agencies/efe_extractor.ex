@@ -25,16 +25,6 @@ defmodule Iris.Agencies.EfeExtractor do
     }
   end
 
-  defp inspect_node(xml_node) do
-    IO.puts "--Start Inspect--"
-    IO.puts "is list  : #{is_list(xml_node)}"
-    IO.puts "is tuple : #{is_tuple(xml_node)}"
-    IO.puts "is int   : #{is_integer(xml_node)}"
-    IO.inspect xml_node
-    IO.puts "--End Inspect--"
-    xml_node
-  end
-
   def to_date(date_str) do
     use Timex
     {:ok, %DateTime{
