@@ -1,4 +1,4 @@
-defmodule Iris.Agencies.EfeExtractorTest do
+defmodule Iris.Agencies.ImageExtractorTest do
   use ExUnit.Case, async: true
   alias Iris.Agencies.EfeExtractor
   alias Iris.Image
@@ -34,7 +34,7 @@ defmodule Iris.Agencies.EfeExtractorTest do
       assert it.__struct__ == Image
       assert not is_nil it.headline
       assert not is_nil it.sub_headline
-      #assert not is_nil it.copyright_line
+      assert not is_nil it.copyright_line
       #assert not is_nil it.country
       assert it.provider == "AFP"
       assert not is_nil it.creation_date
@@ -44,18 +44,6 @@ defmodule Iris.Agencies.EfeExtractorTest do
       IO.puts "--> AFP creation_date:  #{inspect it.creation_date}"
       IO.puts "--> AFP copyright_line: #{inspect it.copyright_line}"
     end
-  end
-
-  test "xmerl extract body as html" do
-    alias Iris.Util.XmlNode
-
-    xml_file       = "482869648.xml"
-    {:ok, xml_str} = File.read "#{@resources_base_path}/#{xml_file}"
-    doc  = xml_str |> XmlNode.from_string
-    item = doc |> XmlNode.first "NewsItem"
-    body = item |> XmlNode.first "NewsComponent/NewsComponent[2]/ContentItem/DataContent/nitf/body/body.content"
-    xml = :xmerl.export([body], :xmerl_html)
-    :io.format("~s~n",[:lists.flatten(xml)])    
   end
 
 end

@@ -6,13 +6,13 @@ defmodule Iris.NewsItemController do
   plug :scrub_params, "news_item" when action in [:create, :update]
   plug :action
 
-  defp without_meta(map) do
-    Map.drop map, [:__meta__, :__struct__]
-  end
-
   def index(conn, _params) do
     newsitems = Repo.all(NewsItem)
-    render(conn, "index.json", newsitems: newsitems)
+    related_subjects =  [
+      %{deportes: 10},
+      %{fubol: 3}
+    ]
+    render conn, "index.json", %{newsitems: newsitems, related_subjects: related_subjects}
   end
 
   def create(conn, %{"news_item" => news_item_params}) do
@@ -25,7 +25,7 @@ defmodule Iris.NewsItemController do
 
     if changeset.valid? do
       news_item = Repo.insert!(changeset)
-      render(conn, "show.json", news_item: without_meta(news_item))
+      render(conn, "show.json", news_item: news_item)
     else
       conn
       |> put_status(:unprocessable_entity)
@@ -35,7 +35,7 @@ defmodule Iris.NewsItemController do
 
   def show(conn, %{"id" => id}) do
     news_item = Repo.get(NewsItem, id)
-    render conn, "show.json", news_item: without_meta(news_item)
+    render conn, "show.json", news_item: news_item
   end
 
   def update(conn, %{"id" => id, "news_item" => news_item_params}) do

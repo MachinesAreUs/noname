@@ -15,7 +15,7 @@ defmodule Iris.Agencies.Extractors do
     root:           [xpath: "NewsItem"],
     headline:       [xpath: "NewsComponent/NewsLines/HeadLine"],
     sub_headline:   [xpath: "NewsComponent/NewsLines/HeadLine"], 
-    copyright_line: [xpath: "NewsComponent/NewsComponent/ContenItem/DataContent[2]/body.content"],
+    copyright_line: [xpath: "NewsComponent/NewsComponent[2]/ContentItem/DataContent/nitf/body/body.content/p"],
     creation_date:  [xpath: "NewsManagement/FirstCreated", 
                      format: "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"],
     provider:       [literal: "AFP"] 
