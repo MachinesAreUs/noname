@@ -54,7 +54,6 @@ defmodule Iris.NewsItemController do
 
   def delete(conn, %{"id" => id}) do
     news_item = Repo.get(NewsItem, id)
-
     news_item = Repo.delete!(news_item)
     render(conn, "show.json", news_item: news_item)
   end

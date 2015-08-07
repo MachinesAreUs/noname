@@ -39,10 +39,10 @@ defmodule Iris.Agencies.ImageExtractorTest do
       assert it.provider == "AFP"
       assert not is_nil it.creation_date
 
-      IO.puts "--> AFP headline:       #{inspect it.headline}"
-      IO.puts "--> AFP sub_headline:   #{inspect it.sub_headline}"
-      IO.puts "--> AFP creation_date:  #{inspect it.creation_date}"
-      IO.puts "--> AFP copyright_line: #{inspect it.copyright_line}"
+      #IO.puts "--> AFP headline:       #{inspect it.headline}"
+      #IO.puts "--> AFP sub_headline:   #{inspect it.sub_headline}"
+      #IO.puts "--> AFP creation_date:  #{inspect it.creation_date}"
+      #IO.puts "--> AFP copyright_line: #{inspect it.copyright_line}"
     end
   end
 

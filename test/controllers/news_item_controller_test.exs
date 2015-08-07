@@ -3,11 +3,14 @@ defmodule Iris.NewsItemControllerTest do
 
   alias Iris.NewsItem
   @valid_attrs %{
+    headline:      "some headline",
+    sub_headline:  "some subheadline",
     body:          "some content",
-    creation_date: %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    provider:      "reuters",
+    country:       "mex",
+    language:      "es",
     embargo:       %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
-    provider:      "some content",
-    title:         "some content"}
+    creation_date: %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0}}
   @invalid_attrs %{}
 
   setup do
@@ -28,9 +31,12 @@ defmodule Iris.NewsItemControllerTest do
     conn = get conn, news_item_path(conn, :show, news_item)
     assert json_response(conn, 200)["news_item"] == %{
       "id"            => news_item.id,
-      "title"         => news_item.title,
+      "headline"      => news_item.headline,
+      "sub_headline"  => news_item.sub_headline,
       "body"          => news_item.body,
       "provider"      => news_item.provider,
+      "country"       => news_item.country,
+      "language"      => news_item.language,
       "creation_date" => to_str(news_item.creation_date),
       "embargo"       => to_str(news_item.embargo),
       "inserted_at"   => to_str(news_item.inserted_at),
@@ -41,6 +47,7 @@ defmodule Iris.NewsItemControllerTest do
   test "creates and renders resource when data is valid", %{conn: conn} do
     conn = post conn, news_item_path(conn, :create), news_item: @valid_attrs
     assert json_response(conn, 200)["news_item"]["id"]
+    IO.puts "----> #{inspect json_response(conn, 200)["news_item"]}"
     assert Repo.get_by(NewsItem, @valid_attrs)
   end
 

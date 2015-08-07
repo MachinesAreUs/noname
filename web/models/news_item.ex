@@ -2,17 +2,20 @@ defmodule Iris.NewsItem do
   use Iris.Web, :model
 
   schema "newsitems" do
-    field :title         , :string
-    field :provider      , :string
+    field :headline      , :string
+    field :sub_headline  , :string
     field :body          , :string
+    field :provider      , :string
+    field :country       , :string
+    field :language      , :string
     field :creation_date , Ecto.DateTime
     field :embargo       , Ecto.DateTime
 
     timestamps
   end
 
-  @required_fields ~w(title provider body creation_date)
-  @optional_fields ~w(embargo)
+  @required_fields ~w(headline provider body creation_date)
+  @optional_fields ~w(embargo sub_headline country language)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
