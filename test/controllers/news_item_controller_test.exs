@@ -47,7 +47,6 @@ defmodule Iris.NewsItemControllerTest do
   test "creates and renders resource when data is valid", %{conn: conn} do
     conn = post conn, news_item_path(conn, :create), news_item: @valid_attrs
     assert json_response(conn, 200)["news_item"]["id"]
-    IO.puts "----> #{inspect json_response(conn, 200)["news_item"]}"
     assert Repo.get_by(NewsItem, @valid_attrs)
   end
 

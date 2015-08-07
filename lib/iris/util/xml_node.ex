@@ -37,23 +37,26 @@ defmodule Iris.Util.XmlNode do
     :xmerl_xpath.string(to_char_list(path), node)
   end
 
+  @html_head "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n"
+
   def text_or_content(element, format \\ :html) do
     unless is_nil(element) do
       case text_ = text element do
         nil -> 
           # Erlang hackery. We convert the element to a nice html text
           html = :xmerl.export([element], xmerl_format(format))
-          :erlang.iolist_to_binary( :io_lib.format("~s~n",[html]) )
+          html = :erlang.iolist_to_binary( :io_lib.format("~s~n",[html]) )
+          String.replace html, @html_head, ""
         _   -> text_ 
       end
     end
   end
 
   defp xmerl_format(format) do
-    format = case format do
+    case format do
       :html -> :xmerl_html
       :xml  -> :xmerl_xml
-      :txt  -> :xmerl_txt
+      :text -> :xmerl_text
     end
   end
 end
