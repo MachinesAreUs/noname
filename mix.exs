@@ -9,7 +9,9 @@ defmodule Iris.Mixfile do
      compilers: [:phoenix] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     test_coverage: [tool: ExCoveralls]
+   ]
   end
 
   # Configuration for the OTP application
@@ -42,6 +44,7 @@ defmodule Iris.Mixfile do
      {:httpoison, "~> 0.7"},
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc, "~> 0.7", only: :dev},
+     {:excoveralls, "~> 0.3", only: :test},
     ]
   end
 end

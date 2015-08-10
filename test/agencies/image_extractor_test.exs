@@ -1,6 +1,5 @@
 defmodule Iris.Agencies.ImageExtractorTest do
   use ExUnit.Case, async: true
-  alias Iris.Agencies.EfeExtractor
   alias Iris.Image
   
   @resources_base_path "./test/resources/agencies_samples/efe_img/"
