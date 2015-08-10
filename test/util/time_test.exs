@@ -1,5 +1,6 @@
 defmodule Iris.Util.TimeTest do
   use ExUnit.Case, async: true
+  doctest Iris.Util.Time
   import Iris.Util.Time
 
   test "formating a null date should give an empty string" do
