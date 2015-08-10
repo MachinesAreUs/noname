@@ -32,8 +32,8 @@ defmodule Iris.Util.XmlNode do
   defp extract_text([xmlText(value: value)]), do: List.to_string(value)
   defp extract_text(_x), do: nil
 
-  def xpath(nil, _), do: []
-  def xpath(node, path) do
+  defp xpath(nil, _), do: []
+  defp xpath(node, path) do
     :xmerl_xpath.string(to_char_list(path), node)
   end
 
@@ -46,7 +46,7 @@ defmodule Iris.Util.XmlNode do
           # Erlang hackery. We convert the element to a nice html text
           html = :xmerl.export([element], xmerl_format(format))
           html = :erlang.iolist_to_binary( :io_lib.format("~s~n",[html]) )
-          String.replace html, @html_head, ""
+          String.replace(html, @html_head, "") |> String.strip
         _   -> text_ 
       end
     end
