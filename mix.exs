@@ -40,6 +40,8 @@ defmodule Iris.Mixfile do
      {:timex, "~> 0.16.1"},
      {:timex_ecto, "~> 0.3.0"},
      {:httpoison, "~> 0.7"},
+     {:earmark, "~> 0.1", only: :dev},
+     {:ex_doc, "~> 0.7", only: :dev},
     ]
   end
 end

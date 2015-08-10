@@ -1,35 +1,14 @@
 defmodule Iris.Util.Time do
+  @moduledoc """
+  Provides utility functions for handling time values.
+  """
   use Timex
 
   @doc """
-  Formatting a nil value, gives back an empty string
+  Formats an Timex.DateTime or Ecto.DateTime value to an ISO 8601 string,
+  Note: Within Iris we don't to serialize a datetime to any other format. 
 
-  # Example
-
-      iex> import Iris.Util.Time
-      iex> to_str nil
-      ""
-  """
-  def to_str(nil), do: ""
-
-  @doc """
-  Formats an Ecto.DateTime value to an ISO 8601 string
-
-  # Examples
-
-      iex> import Iris.Util.Time
-      iex> date_time = %Ecto.DateTime{year: 2015, month: 8, day: 3, hour: 16, min: 23, sec: 0}
-      iex> to_str date_time
-      "2015-08-03T16:23:00Z"
-  """
-  def to_str(%Ecto.DateTime{year: year, month: month, day: day, hour: hour, min: min, sec: sec}) do
-    Date.from({{year,month,day},{hour,min,sec}}) |> to_str
-  end
-
-  @doc """
-  Formats an Timex.DateTime value to an ISO 8601 string,
-
-  # Examples 
+  ## Timex examples 
 
       iex> import Iris.Util.Time
       iex> use Timex 
@@ -42,17 +21,38 @@ defmodule Iris.Util.Time do
       iex> date_time = Date.from {{2015, 8, 28}, {6, 6, 6}}, :utc
       iex> to_str date_time
       "2015-08-28T06:06:06Z"
+
+  ## Ecto examples
+   
+      iex> import Iris.Util.Time
+      iex> date_time = %Ecto.DateTime{year: 2015, month: 8, day: 3, hour: 16, min: 23, sec: 0}
+      iex> to_str date_time
+      "2015-08-03T16:23:00Z"
+ 
+  ## nil example
+
+  Formatting a nil value, gives back an empty string
+
+      iex> import Iris.Util.Time
+      iex> to_str nil
+      ""
   """
   def to_str(%DateTime{} = date_time) do
     {:ok, str_date} = date_time |> DateFormat.format("{ISOz}")
     str_date
   end
 
+  def to_str(%Ecto.DateTime{year: year, month: month, day: day, hour: hour, min: min, sec: sec}) do
+    Date.from({{year,month,day},{hour,min,sec}}) |> to_str
+  end
+
+  def to_str(nil), do: ""
+
   @doc """
   Creates an Timex.DateTime record from a string.
   The format syntaxis is the one available in the Timex library.
   
-  # Examples
+  ## Examples
 
       iex> import Iris.Util.Time
       iex> date_time = from_str "20150707T223929+0000", "{YYYY}{M}{D}T{h24}{0m}{0s}{Z}"
@@ -94,7 +94,7 @@ defmodule Iris.Util.Time do
   @doc """
   Converts an Timex.DateTime value to an Ecto.DateTime one  
 
-  # Example
+  ## Example
 
       iex> use Timex
       iex> import Iris.Util.Time

@@ -23,4 +23,7 @@ erl_crash.dump
 # variables.
 /config/prod.secret.exs
 
+# Documentation dir
+/doc
+
 *.swp
