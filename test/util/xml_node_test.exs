@@ -83,5 +83,4 @@ defmodule Iris.Util.XmlNodeTest do
     assert text == "I'm a very enthusiastic software developer.I like artisanal beers."
   end
 
-
 end
