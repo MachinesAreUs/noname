@@ -3,14 +3,15 @@ defmodule Iris.NewsItemControllerTest do
 
   alias Iris.NewsItem
   @valid_attrs %{
-    headline:      "some headline",
-    sub_headline:  "some subheadline",
-    body:          "some content",
-    provider:      "reuters",
-    country:       "mex",
-    language:      "es",
-    embargo:       %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
-    creation_date: %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0}}
+    copyright_line: "some content",
+    headline:       "some headline",
+    sub_headline:   "some subheadline",
+    body:           "some content",
+    provider:       "reuters",
+    country:        "mex",
+    language:       "es",
+    embargo:        %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0},
+    creation_date:  %Ecto.DateTime{day: 17, month: 4, year: 2015, hour: 0, min: 0, sec: 0}}
   @invalid_attrs %{}
 
   setup do
@@ -30,17 +31,18 @@ defmodule Iris.NewsItemControllerTest do
     news_item = Repo.insert! news_item
     conn = get conn, news_item_path(conn, :show, news_item)
     assert json_response(conn, 200)["news_item"] == %{
-      "id"            => news_item.id,
-      "headline"      => news_item.headline,
-      "sub_headline"  => news_item.sub_headline,
-      "body"          => news_item.body,
-      "provider"      => news_item.provider,
-      "country"       => news_item.country,
-      "language"      => news_item.language,
-      "creation_date" => to_str(news_item.creation_date),
-      "embargo"       => to_str(news_item.embargo),
-      "inserted_at"   => to_str(news_item.inserted_at),
-      "updated_at"    => to_str(news_item.updated_at)
+      "id"             => news_item.id,
+      "headline"       => news_item.headline,
+      "sub_headline"   => news_item.sub_headline,
+      "body"           => news_item.body,
+      "provider"       => news_item.provider,
+      "country"        => news_item.country,
+      "copyright_line" => news_item.copyright_line,
+      "language"       => news_item.language,
+      "creation_date"  => to_str(news_item.creation_date),
+      "embargo"        => to_str(news_item.embargo),
+      "inserted_at"    => to_str(news_item.inserted_at),
+      "updated_at"     => to_str(news_item.updated_at)
     }
   end
 
